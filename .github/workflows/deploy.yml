@@ -57,6 +57,14 @@ jobs:
       - run: python -m pipeline.build_indicators
       - run: python -m pipeline.export_site
 
+      # Chống trình duyệt dùng CSS/JS/logo cũ (Pages cho phép cache 10 phút, Safari giữ favicon lâu hơn):
+      # gắn mã commit vào đường dẫn tài nguyên trong bản được đăng (không sửa file trong repo).
+      - name: Gắn phiên bản vào tài nguyên tĩnh
+        run: |
+          V="${GITHUB_SHA::7}"
+          sed -i -E "s#(href|src)=\"(css/style\.css|js/app\.js|favicon\.svg)\"#\1=\"\2?v=${V}\"#g" site/index.html
+          grep -nE "\?v=${V}" site/index.html
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
