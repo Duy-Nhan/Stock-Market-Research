@@ -886,14 +886,57 @@
     return h;
   }
   var newsLoaded = false;
+  var STAR_KEY = 'smr.starred.reports';
+  function getStarred() { var v = LSget(STAR_KEY, []); return Array.isArray(v) ? v : []; }
+  function setStarred(list) { LSset(STAR_KEY, list.slice().sort().reverse()); }
+  function toggleStar(date) { var l = getStarred(), i = l.indexOf(date); if (i >= 0) l.splice(i, 1); else l.push(date); setStarred(l); return i < 0; }
   function loadNews() {
     if (newsLoaded) return; newsLoaded = true;
     var root = $('#news-root');
     getJSON('data/reports/index.json').then(function (idx) {
       if (!idx.length) { root.innerHTML = '<p class="muted">Chưa có bản tin.</p>'; return; }
-      var sel = idx.length > 1 ? '<label class="muted">Chọn ngày: <select id="news-pick">' + idx.map(function (r) { return '<option value="' + r.date + '">' + ymdToDMY(r.date) + '</option>'; }).join('') + '</select></label>' : '';
-      function show(date) { getJSON('data/reports/' + date + '.json').then(function (d) { root.innerHTML = sel + renderNews(d); var p = $('#news-pick'); if (p) { p.value = date; p.onchange = function () { show(p.value); }; } }); }
-      show(idx[0].date);
+      var N = { sub: 'report', date: idx[0].date };
+      var byDate = {}; idx.forEach(function (r) { byDate[r.date] = r; });
+      function bar() {
+        var st = getStarred();
+        var h = '<div class="nw-bar"><div class="seg" role="group" aria-label="Bản tin hoặc lưu trữ">' +
+          '<button id="nw-sub-report" aria-pressed="' + (N.sub === 'report') + '">Bản tin</button>' +
+          '<button id="nw-sub-archive" aria-pressed="' + (N.sub === 'archive') + '">★ Lưu trữ (' + st.length + ')</button></div>';
+        if (N.sub === 'report') {
+          h += '<label class="muted">Chọn ngày: <select id="news-pick">' + idx.map(function (r) {
+            return '<option value="' + r.date + '"' + (r.date === N.date ? ' selected' : '') + '>' + (st.indexOf(r.date) >= 0 ? '★ ' : '') + ymdToDMY(r.date) + '</option>';
+          }).join('') + '</select></label>';
+          var on = st.indexOf(N.date) >= 0;
+          h += '<button class="star-btn" id="star-btn" aria-pressed="' + on + '" title="Đánh dấu để xem lại ở mục Lưu trữ (lưu trong trình duyệt này)">' + (on ? '★ Đã đánh dấu' : '☆ Đánh dấu bản tin này') + '</button>';
+        }
+        return h + '</div>';
+      }
+      function archive() {
+        var st = getStarred();
+        if (!st.length) return '<div class="card" style="padding:14px"><p><b>Chưa có bản tin nào được đánh dấu.</b></p><p class="muted">Mở một bản tin và bấm “☆ Đánh dấu bản tin này” để lưu vào đây. Đánh dấu được lưu trong trình duyệt này, không đồng bộ giữa các thiết bị.</p></div>';
+        var h = '<ul class="arch-list">';
+        st.forEach(function (d) {
+          var r = byDate[d];
+          h += '<li class="arch-item" data-date="' + d + '"><div class="arch-main"><div class="arch-date">★ ' + ymdToDMY(d) + '</div><div class="arch-title">' + (r ? esc(r.title) : '<span class="muted">Bản tin này không còn trong dữ liệu của trang</span>') + '</div>' +
+            (r ? '<div class="muted">' + r.word_count + ' từ' + (r.factcheck_ok ? ' · đã qua kiểm chứng tự động' : '') + '</div>' : '') + '</div>' +
+            (r ? '<button class="open" data-date="' + d + '">Xem</button>' : '') + '<button class="unstar" data-date="' + d + '" title="Bỏ đánh dấu">★ Bỏ</button></li>';
+        });
+        return h + '</ul><p class="muted" style="margin-top:10px">Đánh dấu được lưu trong trình duyệt này (không đồng bộ giữa các thiết bị, mất nếu xóa dữ liệu trang).</p>';
+      }
+      function render() {
+        if (N.sub === 'archive') { root.innerHTML = bar() + archive(); wire(); return; }
+        getJSON('data/reports/' + N.date + '.json').then(function (d) { root.innerHTML = bar() + renderNews(d); wire(); })
+          .catch(function (e) { root.innerHTML = bar() + '<p class="muted">Không tải được bản tin: ' + esc(e.message) + '</p>'; wire(); });
+      }
+      function wire() {
+        $('#nw-sub-report').onclick = function () { N.sub = 'report'; render(); };
+        $('#nw-sub-archive').onclick = function () { N.sub = 'archive'; render(); };
+        var pick = $('#news-pick'); if (pick) pick.onchange = function () { N.date = pick.value; render(); };
+        var sb = $('#star-btn'); if (sb) sb.onclick = function () { toggleStar(N.date); render(); };
+        $all('.arch-item .open').forEach(function (b) { b.onclick = function () { N.date = b.getAttribute('data-date'); N.sub = 'report'; render(); window.scrollTo(0, 0); }; });
+        $all('.arch-item .unstar').forEach(function (b) { b.onclick = function () { toggleStar(b.getAttribute('data-date')); render(); }; });
+      }
+      render();
     }).catch(function (e) { root.innerHTML = '<p class="muted">Không tải được bản tin: ' + esc(e.message) + '</p>'; newsLoaded = false; });
   }
   function setView(v) {

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SMR">
+<rect width="64" height="64" rx="14" fill="#0f2747"/>
+<g stroke-linecap="round">
+<line x1="18" y1="24" x2="18" y2="50" stroke="#e03a3e" stroke-width="3"/>
+<rect x="13" y="30" width="10" height="14" rx="2" fill="#e03a3e"/>
+<line x1="32" y1="16" x2="32" y2="46" stroke="#2bd48a" stroke-width="3"/>
+<rect x="27" y="22" width="10" height="17" rx="2" fill="#2bd48a"/>
+<line x1="46" y1="8" x2="46" y2="38" stroke="#2bd48a" stroke-width="3"/>
+<rect x="41" y="13" width="10" height="19" rx="2" fill="#2bd48a"/>
+</g>
+<path d="M9 52 L24 41 L36 44 L56 20" fill="none" stroke="#f1b92e" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+</svg>

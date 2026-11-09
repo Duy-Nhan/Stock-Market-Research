@@ -39,7 +39,9 @@ button, select, input { font: inherit; color: inherit; }
 .up { color: var(--up); } .down { color: var(--down); } .ref { color: var(--ref); } .muted { color: var(--muted); }
 
 .topbar { display: flex; align-items: center; gap: 16px; padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 20; flex-wrap: wrap; }
-.brand { font-weight: 700; font-size: 16px; letter-spacing: .2px; }
+.brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; letter-spacing: .2px; color: var(--text); text-decoration: none; }
+.brand .logo { display: block; border-radius: 7px; }
+.brand-name { font-size: 19px; font-weight: 800; letter-spacing: 1.5px; }
 .brand small { font-weight: 500; color: var(--muted); margin-left: 6px; }
 .tabs { display: flex; gap: 4px; }
 .tab { border: 0; background: transparent; padding: 6px 12px; border-radius: 6px; cursor: pointer; color: var(--muted); font-weight: 600; }
@@ -175,3 +177,17 @@ table.groups td { padding: 5px 0; border-bottom: 1px solid var(--border); } tabl
 .refs ol { padding-left: 22px; font-size: 13px; } .refs li { margin: 6px 0; line-height: 1.5; } .refs a { color: var(--accent); }
 .fc-badge { background: color-mix(in srgb, var(--up) 15%, transparent); color: var(--up); font-weight: 700; padding: 2px 9px; border-radius: 999px; }
 .fc-badge.bad { background: color-mix(in srgb, var(--down) 15%, transparent); color: var(--down); }
+
+/* Bản tin: thanh chuyển Bản tin / Lưu trữ và nút đánh dấu sao */
+.nw-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 0 0 14px; }
+.nw-bar label select { margin-left: 6px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); color: var(--text); }
+.star-btn { border: 1px solid var(--border); background: var(--panel); color: var(--muted); border-radius: 8px; padding: 5px 12px; cursor: pointer; font-weight: 600; }
+.star-btn[aria-pressed="true"] { color: var(--ref); border-color: var(--ref); background: var(--panel-2); }
+.star-btn:hover { border-color: var(--accent); }
+.arch-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.arch-item { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--panel); }
+.arch-item .arch-main { flex: 1; min-width: 0; }
+.arch-item .arch-date { font-weight: 700; }
+.arch-item .arch-title { color: var(--text); overflow-wrap: anywhere; }
+.arch-item button { border: 1px solid var(--border); background: var(--panel); color: var(--text); border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+.arch-item button.unstar { color: var(--ref); }

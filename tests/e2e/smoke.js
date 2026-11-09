@@ -44,6 +44,25 @@ const ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) failed+
   ok((await p.locator('.otable tbody tr').count()) >= 16, 'bản tin có bảng nhận định kết hợp');
   ok((await p.textContent('.fc-badge')).includes('Kiểm chứng'), 'bản tin hiển thị trạng thái kiểm chứng');
   ok((await p.locator('.tier.fact').count()) > 5 && (await p.locator('.tier.infer').count()) > 0, 'bản tin gắn nhãn tầng sự kiện/suy luận');
+  // Thương hiệu SMR + đánh dấu sao / lưu trữ
+  ok((await p.title()).startsWith('SMR'), 'tiêu đề trang là SMR');
+  ok((await p.textContent('.brand-name')).trim() === 'SMR', 'tên thương hiệu SMR trên đầu trang');
+  ok((await p.locator('link[rel=icon]').count()) === 1 && (await p.locator('.brand img.logo').count()) === 1, 'có logo và favicon');
+  ok((await p.textContent('#nw-sub-archive')).includes('(0)'), 'lưu trữ ban đầu trống (0)');
+  await p.click('#nw-sub-archive');
+  ok((await p.textContent('#news-root')).includes('Chưa có bản tin nào được đánh dấu'), 'lưu trữ trống có hướng dẫn');
+  await p.click('#nw-sub-report'); await p.waitForSelector('#star-btn');
+  await p.click('#star-btn'); await p.waitForSelector('#star-btn[aria-pressed="true"]', { timeout: 3000 }).catch(() => {});
+  ok((await p.getAttribute('#star-btn', 'aria-pressed')) === 'true', 'bấm sao: bản tin được đánh dấu');
+  ok((await p.textContent('#nw-sub-archive')).includes('(1)'), 'đếm lưu trữ tăng lên 1');
+  await p.click('#nw-sub-archive');
+  ok((await p.locator('.arch-item').count()) === 1, 'mục lưu trữ liệt kê bản tin đã đánh dấu');
+  await p.reload(); await p.waitForSelector('.chart-main canvas'); await p.click('#tab-news'); await p.waitForSelector('#nw-sub-archive');
+  ok((await p.textContent('#nw-sub-archive')).includes('(1)'), 'đánh dấu còn sau khi tải lại trang');
+  await p.click('#nw-sub-archive'); await p.click('.arch-item .open'); await p.waitForSelector('.nw-head h1');
+  ok((await p.locator('.nw-head h1').count()) === 1, 'nút Xem mở lại bản tin từ lưu trữ');
+  await p.click('#star-btn'); await p.waitForTimeout(500);
+  ok((await p.textContent('#nw-sub-archive')).includes('(0)'), 'bỏ đánh dấu: lưu trữ về 0');
   const mo = await mk({ viewport: { width: 390, height: 844 } });
   await mo.goto(BASE); await mo.waitForSelector('.chart-main canvas');
   ok((await mo.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)) <= 0, 'mobile: không tràn ngang');
