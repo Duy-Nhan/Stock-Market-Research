@@ -1,0 +1,5 @@
+# Python 3.9+ (đã kiểm thử 3.9.6, macOS). Cài: python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+pytest>=7
+TA-Lib>=0.4   # chỉ dùng trong test để đối chiếu chỉ báo (cần wheel có sẵn hoặc thư viện C ta-lib)

@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "description": "Nguồn sự thật duy nhất cho danh sách theo dõi. Thêm/bớt mã tại đây, không hard-code trong code.",
+    "verified_at": "2026-11-09",
+    "verified_via": "VNDirect finfo-api /v4/stocks (tên, sàn, ngày niêm yết) — xem docs/data-sources.md"
+  },
+  "timezone_display": "Asia/Ho_Chi_Minh",
+  "price_units": {
+    "vn_equity_raw": "nghìn đồng (nguồn VNDirect dchart trả về 51.0 = 51.000 đồng); pipeline phải nhân 1000 khi chuẩn hóa sang đồng",
+    "vn_index_raw": "điểm",
+    "xauusd": "USD/oz",
+    "sjc": "đồng/lượng"
+  },
+  "instruments": [
+    {
+      "symbol": "XAUUSD",
+      "name": "Vàng thế giới (XAU/USD)",
+      "type": "gold_intl",
+      "currency": "USD",
+      "sector": "Vàng",
+      "primary_price_source": "yahoo:GC=F (COMEX gold futures, KHÔNG phải spot — xem docs/data-sources.md §4)",
+      "spot_snapshot_source": "gold-api.com + swissquote (chỉ giá hiện tại, không có lịch sử)",
+      "notes": "Quyết định 2026-11-09: giữ nguồn miễn phí, dùng GC=F (futures) cho biểu đồ/nhận định và gắn nhãn rõ; lưu snapshot spot để theo dõi basis."
+    },
+    {
+      "symbol": "SJC",
+      "name": "Vàng miếng SJC (trong nước)",
+      "type": "gold_domestic",
+      "currency": "VND",
+      "sector": "Vàng",
+      "primary_price_source": "vnappmob:/api/v2/gold/sjc (bên thứ ba; trang sjc.com.vn chặn bot bằng Cloudflare)",
+      "history": "tự tích lũy ảnh chụp hằng ngày (nguồn không trả lịch sử)",
+      "fields": ["buy_1l", "sell_1l"],
+      "notes": "Dùng làm thông tin phụ: giá mua/bán và độ chênh (premium) so với giá thế giới quy đổi."
+    },
+    {
+      "symbol": "FPT",
+      "name": "Công ty Cổ phần FPT",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Công nghệ",
+      "listed_date": "2006-12-13",
+      "vn30_member": true,
+      "price_source": "vndirect:dchart"
+    },
+    {
+      "symbol": "CMG",
+      "name": "Công ty Cổ phần Tập đoàn Công nghệ CMC",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Công nghệ",
+      "listed_date": "2010-01-22",
+      "vn30_member": false,
+      "price_source": "vndirect:dchart"
+    },
+    {
+      "symbol": "VCB",
+      "name": "Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Ngân hàng",
+      "listed_date": "2009-06-30",
+      "vn30_member": true,
+      "price_source": "vndirect:dchart"
+    },
+    {
+      "symbol": "TCB",
+      "name": "Ngân hàng Thương mại Cổ phần Kỹ Thương Việt Nam - Techcombank",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Ngân hàng",
+      "listed_date": "2018-06-04",
+      "vn30_member": true,
+      "price_source": "vndirect:dchart"
+    },
+    {
+      "symbol": "GAS",
+      "name": "Tổng Công ty Khí Việt Nam - CTCP",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Dầu khí",
+      "listed_date": "2012-05-21",
+      "vn30_member": true,
+      "price_source": "vndirect:dchart"
+    },
+    {
+      "symbol": "BSR",
+      "name": "Công ty Cổ phần - Tổng Công ty Lọc hóa dầu Việt Nam",
+      "type": "stock",
+      "exchange": "HOSE",
+      "sector": "Dầu khí",
+      "listed_date": "2025-01-17",
+      "vn30_member": true,
+      "price_source": "vndirect:dchart",
+      "notes": "Niêm yết HOSE từ 2025-01-17 theo VNDirect finfo (đối chiếu Yahoo: HOSE; finfo ghi thuộc rổ VN30). Lịch sử giá trước ngày này (nếu có) cần kiểm tra — có thể là giai đoạn UPCoM."
+    },
+    {
+      "symbol": "FUEVFVND",
+      "name": "Quỹ ETF DCVFMVN DIAMOND",
+      "type": "etf",
+      "exchange": "HOSE",
+      "sector": "ETF",
+      "tracks_index": "VN Diamond",
+      "listed_date": "2020-05-12",
+      "price_source": "vndirect:dchart",
+      "notes": "Chỉ số tham chiếu 'VN Diamond' là hiểu biết chung; cần xác minh bằng tài liệu của quỹ trước khi đưa vào báo cáo."
+    },
+    {
+      "symbol": "E1VFVN30",
+      "name": "Quỹ ETF DCVFMVN30",
+      "type": "etf",
+      "exchange": "HOSE",
+      "sector": "ETF",
+      "tracks_index": "VN30",
+      "listed_date": "2014-10-06",
+      "price_source": "vndirect:dchart"
+    }
+  ],
+  "context_indices": [
+    { "symbol": "VNINDEX", "name": "VN-Index", "price_source": "vndirect:dchart" },
+    { "symbol": "VN30", "name": "VN30", "price_source": "vndirect:dchart" }
+  ]
+}

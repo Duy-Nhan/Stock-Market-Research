@@ -1,0 +1,366 @@
+{
+ "sources": {
+  "s1": {
+   "title": "Nhịp đập Thị trường 09/11: VN-Index giảm hơn 11 điểm, dòng tiền thu hẹp",
+   "outlet": "Vietstock",
+   "url": "http://vietstock.vn/2026/11/nhip-dap-thi-truong-0911-vn-index-giam-hon-11-diem-dong-tien-thu-hep-1636-1512897.htm",
+   "published": "2026-11-09T16:52:00+07:00",
+   "kind": "news"
+  },
+  "s2": {
+   "title": "VN-Index giảm mạnh đầu tuần",
+   "outlet": "VnExpress",
+   "url": "https://vnexpress.net/vn-index-giam-manh-dau-tuan-5142541.html",
+   "published": "2026-11-09T16:06:55+07:00",
+   "kind": "news"
+  },
+  "s3": {
+   "title": "Phiên 9/11: Khối ngoại bán ròng hơn 800 tỷ đồng, xả mạnh một \"cổ phiếu quốc dân\"",
+   "outlet": "CafeF (số liệu của Vietcap)",
+   "url": "https://cafef.vn/phien-9-11-khoi-ngoai-ban-rong-hon-800-ty-dong-xa-manh-mot-co-phieu-quoc-dan-188261109153139819.chn",
+   "published": "2026-11-09T15:45:00+07:00",
+   "kind": "news"
+  },
+  "s4": {
+   "title": "Tâm lý bầu cử Mỹ mang tính ngắn hạn, động lực VN-Index tiếp theo là lãi suất và lợi nhuận doanh nghiệp",
+   "outlet": "VnEconomy",
+   "url": "https://vneconomy.vn/tam-ly-bau-cu-my-mang-tinh-ngan-han-dong-luc-vn-index-tiep-theo-la-lai-suat-va-loi-nhuan-doanh-nghiep.htm",
+   "published": "2026-11-09T12:07:24+07:00",
+   "kind": "news"
+  },
+  "s7": {
+   "title": "Ngân hàng tiếp tục hạ giá USD về sát 25.700 đồng",
+   "outlet": "VnExpress",
+   "url": "https://vnexpress.net/ngan-hang-tiep-tuc-ha-gia-usd-ve-sat-25-700-dong-5142468.html",
+   "published": "2026-11-09T14:36:41+07:00",
+   "kind": "news"
+  },
+  "s8": {
+   "title": "KIS Research: Xuất siêu 7,31 tỷ USD, xuất khẩu dẫn dắt tăng trưởng",
+   "outlet": "CafeF (đăng lại từ Thanh Niên Việt)",
+   "url": "https://cafef.vn/kis-research-xuat-sieu-731-ty-usd-xuat-khau-dan-dat-tang-truong-188261107091739715.chn",
+   "published": "2026-11-09T08:00:00+07:00",
+   "kind": "news"
+  },
+  "s9": {
+   "title": "Giới chức Fed tiếp tục nói về sự cần thiết phải tăng lãi suất",
+   "outlet": "VnEconomy",
+   "url": "https://vneconomy.vn/gioi-chuc-fed-tiep-tuc-noi-ve-su-can-thiet-phai-tang-lai-suat.htm",
+   "published": "2026-11-09T22:06:36+07:00",
+   "kind": "news"
+  },
+  "s10": {
+   "title": "Áp lực giảm giá vàng còn lớn do triển vọng lãi suất cao hơn lâu hơn",
+   "outlet": "VnEconomy",
+   "url": "https://vneconomy.vn/ap-luc-giam-gia-vang-con-lon-do-trien-vong-lai-suat-cao-hon-lau-hon.htm",
+   "published": "2026-11-09T07:27:19+07:00",
+   "kind": "news"
+  },
+  "s11": {
+   "title": "Ngân hàng Thế giới dự báo giá vàng và giá bạc giảm trong năm 2027 và 2028",
+   "outlet": "VnEconomy",
+   "url": "https://vneconomy.vn/ngan-hang-the-gioi-du-bao-gia-vang-va-gia-bac-giam-trong-nam-2027-va-2028.htm",
+   "published": "2026-11-09T09:01:46+07:00",
+   "kind": "news"
+  },
+  "s12": {
+   "title": "Giá vàng dồn dập giảm sau tăng mạnh",
+   "outlet": "Báo Thanh Niên",
+   "url": "https://thanhnien.vn/gia-vang-don-dap-giam-sau-tang-manh-185261109140151548.htm",
+   "published": "2026-11-09T16:30:00+07:00",
+   "kind": "news"
+  },
+  "s13": {
+   "title": "BSR tăng mạnh kế hoạch lợi nhuận năm 2026 lên gần 18.600 tỷ đồng",
+   "outlet": "CafeF (đăng lại từ An ninh tiền tệ)",
+   "url": "https://cafef.vn/bsr-tang-manh-ke-hoach-loi-nhuan-nam-2026-len-gan-18600-ty-dong-188261108095036544.chn",
+   "published": "2026-11-08T16:19:00+07:00",
+   "kind": "news"
+  },
+  "s14": {
+   "title": "Chủ nhà máy lọc dầu Dung Quất nâng mục tiêu lãi kỷ lục",
+   "outlet": "VnExpress",
+   "url": "https://vnexpress.net/chu-nha-may-loc-dau-dung-quat-nang-muc-tieu-lai-ky-luc-5142212.html",
+   "published": "2026-11-09T07:57:33+07:00",
+   "kind": "news"
+  },
+  "s15": {
+   "title": "FPT Telecom sắp phát hành hơn 110 triệu cổ phiếu thưởng cho cổ đông",
+   "outlet": "CafeF (đăng lại từ An ninh tiền tệ)",
+   "url": "https://cafef.vn/fpt-telecom-sap-phat-hanh-hon-110-trieu-co-phieu-thuong-cho-co-dong-188261109144524706.chn",
+   "published": "2026-11-09T15:10:00+07:00",
+   "kind": "news"
+  },
+  "s18": {
+   "title": "SSI: Chứng khoán có thể tạo đáy ngắn hạn trong tháng này",
+   "outlet": "VnExpress",
+   "url": "https://vnexpress.net/ssi-chung-khoan-co-the-tao-day-ngan-han-trong-thang-nay-5142164.html",
+   "published": "2026-11-09T07:41:09+07:00",
+   "kind": "news"
+  },
+  "s20": {
+   "title": "Giá dầu, bitcoin đồng loạt giảm",
+   "outlet": "CafeF (đăng lại từ Tiền phong)",
+   "url": "https://cafef.vn/gia-dau-bitcoin-dong-loat-giam-188261109094506256.chn",
+   "published": "2026-11-09T09:59:00+07:00",
+   "kind": "news"
+  },
+  "s21": {
+   "title": "11 quỹ ETF quy mô gần 20.000 tỷ sắp mua bán thế nào?",
+   "outlet": "VnEconomy",
+   "url": "https://vneconomy.vn/11-quy-etf-quy-mo-gan-20000-ty-sap-mua-ban-the-nao.htm",
+   "published": "2026-11-09T13:59:50+07:00",
+   "kind": "news"
+  },
+  "d1": {
+   "title": "Net interest margin",
+   "outlet": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Net_interest_margin",
+   "published": null,
+   "kind": "definition"
+  },
+  "d2": {
+   "title": "Exchange-traded fund",
+   "outlet": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Exchange-traded_fund",
+   "published": null,
+   "kind": "definition"
+  },
+  "d3": {
+   "title": "Breadth of market",
+   "outlet": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Market_breadth",
+   "published": null,
+   "kind": "definition"
+  },
+  "d4": {
+   "title": "Scrip issue",
+   "outlet": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scrip_issue",
+   "published": null,
+   "kind": "definition"
+  }
+ },
+ "claims": {
+  "c1": {
+   "source": "s1",
+   "quote": "VN-Index giảm 11.04 điểm (-0.64%), xuống mức 1,714.32 điểm"
+  },
+  "c2": {
+   "source": "s1",
+   "quote": "khối lượng giao dịch khớp lệnh của VN-Index đạt hơn 498 triệu cổ phiếu, tương đương giá trị đạt hơn 10.15 ngàn tỷ đồng"
+  },
+  "c3": {
+   "source": "s1",
+   "quote": "bên bán có 354 mã giảm và bên mua có 304 mã tăng"
+  },
+  "c4": {
+   "source": "s1",
+   "quote": "VHM, MCH, STB và GAS là những mã có ảnh hưởng tiêu cực nhất đến VN-Index"
+  },
+  "c5": {
+   "source": "s1",
+   "quote": "khối này quay lại bán ròng hơn 805.41 tỷ đồng trên sàn HOSE, tập trung tại các mã HPG (130.12 tỷ), VIC (89.70 tỷ), PNJ (84.35 tỷ) và FPT (84.04 tỷ)"
+  },
+  "c7": {
+   "source": "s2",
+   "quote": "Nhóm này rút ròng gần 800 tỷ đồng trong phiên đầu tuần, cao nhất 3 tuần qua"
+  },
+  "c8": {
+   "source": "s2",
+   "quote": "Toàn bộ cổ phiếu thuộc nhóm này đóng cửa dưới tham chiếu"
+  },
+  "c9": {
+   "source": "s2",
+   "quote": "khuyến nghị nhà đầu tư nên ưu tiên quản trị rủi ro, hạn chế mua đuổi và có thể cân nhắc giải ngân thăm dò khi chỉ số xuống quanh 1.700-1.720 điểm"
+  },
+  "c11": {
+   "source": "s3",
+   "quote": "MBB và TCB là mã tiếp theo được gom mạnh 61 và 33 tỷ đồng"
+  },
+  "c12": {
+   "source": "s4",
+   "quote": "VN-Index được dự báo tiếp tục tích lũy trong vùng 1.700–1.800 điểm"
+  },
+  "c13": {
+   "source": "s4",
+   "quote": "Vùng 1.690–1.700 điểm đóng vai trò hỗ trợ quan trọng, trong khi 1.800 điểm là ngưỡng kháng cự đáng chú ý"
+  },
+  "c14": {
+   "source": "s4",
+   "quote": "giá dầu Brent từ mức 112,1 USD/thùng ngày 23/10 xuống khoảng 94 USD/thùng ngày 4/11"
+  },
+  "c15": {
+   "source": "s4",
+   "quote": "nếu Cục Dự trữ Liên bang Mỹ tăng lãi suất trong cuộc họp ngày 9/12"
+  },
+  "c16": {
+   "source": "s4",
+   "quote": "Đảng Dân chủ giành đa số tại cả Hạ viện và Thượng viện"
+  },
+  "c16b": {
+   "source": "s4",
+   "quote": "chính sách tiền tệ của Mỹ chưa có dấu hiệu thay đổi đáng kể sau bầu cử"
+  },
+  "c17": {
+   "source": "s4",
+   "quote": "đây mới là các biện pháp hỗ trợ có mục tiêu, chưa phải một chu kỳ nới lỏng tiền tệ trên diện rộng"
+  },
+  "c18": {
+   "source": "s4",
+   "quote": "giảm tối thiểu 0,5%/năm lãi suất tiền gửi mới từ kỳ hạn sáu tháng trở lên và giảm 1,5–2%/năm lãi suất cho vay đối với một số lĩnh vực ưu tiên"
+  },
+  "c25": {
+   "source": "s7",
+   "quote": "Vietcombank giảm 50 đồng ở cả hai chiều, niêm yết tỷ giá USD tại 25.320 - 25.730 đồng"
+  },
+  "c26": {
+   "source": "s7",
+   "quote": "Ngân hàng Nhà nước hôm nay niêm yết tỷ giá trung tâm tại 25.610 đồng"
+  },
+  "c28": {
+   "source": "s8",
+   "quote": "xuất khẩu tháng 10/2026 tăng 51,43% so với cùng kỳ, đạt 64,67 tỷ USD, đưa cán cân thương mại xuất siêu 7,31 tỷ USD"
+  },
+  "c31": {
+   "source": "s9",
+   "quote": "Fed tăng lãi suất 0,25 điểm phần trăm lên khoảng 3,75-4%, đánh dấu đợt tăng đầu tiên sau hơn 3 năm"
+  },
+  "c31a": {
+   "source": "s9",
+   "quote": "ba vị quan chức của Cục Dự trữ Liên bang Mỹ (Fed) đều bày tỏ quan điểm cho rằng ngân hàng trung ương này cần tăng lãi suất"
+  },
+  "c35": {
+   "source": "s10",
+   "quote": "Giá vàng đã phục hồi mạnh trong tuần vừa rồi, lấy lại mốc chủ chốt 4.000 USD/oz"
+  },
+  "c36": {
+   "source": "s10",
+   "quote": "Bộ Lao động Mỹ sẽ công bố báo cáo chỉ số giá tiêu dùng (CPI) tháng 10 vào ngày thứ Ba và chỉ số giá sản xuất (PPI) vào ngày thứ Sáu"
+  },
+  "c37": {
+   "source": "s10",
+   "quote": "kỳ vọng Fed tăng lãi suất trong cuộc họp tháng 12 sẽ tiếp tục được củng cố và giá vàng có thể lại sụt giảm dưới mốc 4.000 USD/oz"
+  },
+  "c38": {
+   "source": "s10",
+   "quote": "nhiều khả năng vàng vẫn sẽ duy trì được ngưỡng hỗ trợ trên 4.000 USD/oz"
+  },
+  "c38b": {
+   "source": "s10",
+   "quote": "vàng ít có khả năng tăng giá mạnh trong tương lai gần"
+  },
+  "c40": {
+   "source": "s11",
+   "quote": "WB kỳ vọng giá vàng trung bình sẽ giảm 7,6% xuống 4.250 USD/oz trong năm 2027"
+  },
+  "c41": {
+   "source": "s12",
+   "quote": "mua vào và bán ra 138,2 - 141,2 triệu đồng/lượng, giảm 800.000 đồng/lượng so với đầu giờ sáng, song tăng 200.000 đồng/lượng so với chốt tuần qua"
+  },
+  "c42": {
+   "source": "s12",
+   "quote": "Giá vàng miếng SJC đang cao hơn giá vàng thế giới quy đổi 14,2 triệu đồng/lượng"
+  },
+  "c44": {
+   "source": "s13",
+   "quote": "lợi nhuận sau thuế tăng từ 2.162 tỷ đồng lên 18.579 tỷ đồng, gấp 8,6 lần mục tiêu ban đầu"
+  },
+  "c46": {
+   "source": "s14",
+   "quote": "giá dầu thô tăng mạnh, từ mức bình quân 69 USD một thùng hồi quý III năm ngoái lên 97 USD vào quý III năm nay vì ảnh hưởng xung đột Trung Đông"
+  },
+  "c48": {
+   "source": "s15",
+   "quote": "FPT Telecom dự kiến phát hành hơn 110,8 triệu cổ phiếu thưởng cho cổ đông với tỷ lệ thực hiện quyền là 100:15"
+  },
+  "c49": {
+   "source": "s15",
+   "quote": "Công ty Cổ phần FPT (MCK: FPT, sàn HoSE) sở hữu gần 337,3 triệu cổ phiếu (tỷ lệ sở hữu 45,66%), cũng sẽ thu về khoảng gần 674,6 tỷ đồng cổ tức"
+  },
+  "c50": {
+   "source": "s15",
+   "quote": "Ngày đăng ký cuối cùng để phân bổ quyền là 10/12/2026"
+  },
+  "c58": {
+   "source": "s18",
+   "quote": "thanh khoản còn mỏng, lợi nhuận doanh nghiệp có thể tăng chậm lại, dư nợ margin ở mức cao và áp lực bán ròng của khối ngoại vẫn hiện hữu"
+  },
+  "c59": {
+   "source": "s18",
+   "quote": "thị trường có nhiều khả năng hình thành đáy ngắn hạn trong tháng 11"
+  },
+  "c62": {
+   "source": "s20",
+   "quote": "giá dầu Brent giảm 64 cent, tương đương 0,64%, xuống còn 97,67 USD/thùng"
+  },
+  "c63": {
+   "source": "s20",
+   "quote": "ông Trump cho biết khả năng Mỹ cần tiến hành các cuộc tấn công mới nhằm vào Iran là rất thấp, tùy thuộc vào việc hai bên có đạt được một thỏa thuận đủ mạnh hay không"
+  },
+  "c65": {
+   "source": "s21",
+   "quote": "rổ VN30 có thể mua VJC, VHM, MBB và VCB, đồng thời bán mạnh VIC, MSN, LPB và GAS"
+  },
+  "c66": {
+   "source": "s21",
+   "quote": "MWG và FPT lần lượt có thể bị bán 97,6 tỷ đồng và 83,2 tỷ đồng"
+  },
+  "c68": {
+   "source": "s21",
+   "quote": "đây là số liệu ước tính, không phải kết quả giao dịch thực tế"
+  },
+  "c69": {
+   "source": "s21",
+   "quote": "MBB có thể được mua ròng tổng cộng 55,7 tỷ đồng, HDB khoảng 21,7 tỷ đồng, VCB khoảng 18,4 tỷ đồng và STB khoảng 15,7 tỷ đồng"
+  },
+  "c70": {
+   "source": "s21",
+   "quote": "Hiện có 6 quỹ ETF với tổng quy mô hơn 10,3 nghìn tỷ đồng đang tham chiếu chỉ số VN-Diamond Index, gồm: FUEVFVND"
+  },
+  "c71": {
+   "source": "s21",
+   "quote": "4 quỹ ETF với tổng quy mô hơn 8,5 nghìn tỷ đồng đang tham chiếu, gồm: E1VFVN30"
+  },
+  "d1": {
+   "source": "d1",
+   "quote": "Net interest margin (NIM) is a measure of the difference between the interest income generated by banks or other financial institutions and the amount of interest paid out to their lenders"
+  },
+  "d2": {
+   "source": "d2",
+   "quote": "An exchange-traded fund (ETF) is a type of investment fund that is also an exchange-traded product; i.e., it is bought and sold on stock exchanges"
+  },
+  "d3": {
+   "source": "d3",
+   "quote": "Breadth of market is an indicator used in security analysis. In its simplest form it is computed on a stock market by taking the ratio of the number of advancing stocks to declining stocks."
+  },
+  "d4": {
+   "source": "d4",
+   "quote": "a scrip issue, also known as capitalisation issue or bonus issue, is the process of creating new shares which are given free of charge to existing shareholders"
+  },
+  "c9b": {
+   "source": "s2",
+   "quote": "Trong trường hợp áp lực bán tiếp diễn khiến thị trường mất mốc 1.700 điểm, nhà đầu tư nên giảm dần tỷ trọng cổ phiếu trong danh mục"
+  },
+  "c37b": {
+   "source": "s10",
+   "quote": "Dù vậy, ông Streible cho biết ông kỳ vọng đây có thể là đợt thanh lọc cuối cùng đối với vàng"
+  },
+  "c44b": {
+   "source": "s13",
+   "quote": "BSR đã hoàn thành vượt 34% kế hoạch lợi nhuận sau thuế vừa thực hiện điều chỉnh đã đề ra"
+  },
+  "c44c": {
+   "source": "s14",
+   "quote": "Kế hoạch kinh doanh mới của BSR vẫn thấp hơn dự báo của nhiều nhóm phân tích"
+  },
+  "c68b": {
+   "source": "s21",
+   "quote": "tác động cung cầu có thể phân bổ trong nhiều phiên thay vì tập trung tại một thời điểm"
+  },
+  "c31c": {
+   "source": "s9",
+   "quote": "một lộ trình dần dần là hợp lý"
+  }
+ }
+}

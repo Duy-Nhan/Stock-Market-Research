@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "description": "Từ khóa lọc sơ bộ tin theo watchlist/chủ đề (khớp không phân biệt hoa thường, theo ranh giới từ). Chỉ là bộ lọc thô để đọc nhanh; việc chọn tin và gán kênh tác động do người viết báo cáo quyết định và phải đọc bài gốc.",
+    "updated": "2026-11-09"
+  },
+  "tickers": {
+    "FPT": ["FPT", "Tập đoàn FPT", "FPT Software", "FPT Telecom"],
+    "CMG": ["CMG", "CMC Corp", "Tập đoàn Công nghệ CMC", "CMC Global"],
+    "VCB": ["VCB", "Vietcombank", "Ngân hàng Ngoại thương"],
+    "TCB": ["TCB", "Techcombank", "Kỹ Thương"],
+    "GAS": ["PV GAS", "PVGAS", "Tổng công ty Khí Việt Nam", "cổ phiếu GAS", "mã GAS"],
+    "BSR": ["BSR", "Bình Sơn", "Lọc hóa dầu Bình Sơn", "Lọc dầu Dung Quất", "Dung Quất"],
+    "FUEVFVND": ["FUEVFVND", "VN Diamond", "ETF Diamond", "DCVFMVN Diamond"],
+    "E1VFVN30": ["E1VFVN30", "ETF VN30", "DCVFMVN30"],
+    "XAUUSD": ["XAU", "giá vàng thế giới", "vàng thế giới", "vàng giao ngay", "ounce"],
+    "SJC": ["SJC", "vàng miếng", "vàng nhẫn", "giá vàng trong nước", "Công ty Vàng bạc đá quý Sài Gòn"]
+  },
+  "themes": {
+    "vang": ["vàng", "SJC", "ounce", "Fed", "Cục Dự trữ Liên bang", "đồng USD", "chỉ số USD", "DXY", "lợi suất trái phiếu"],
+    "lai_suat_ty_gia": ["lãi suất", "tỷ giá", "Ngân hàng Nhà nước", "NHNN", "OMO", "tín phiếu", "tăng trưởng tín dụng", "room tín dụng", "thanh khoản hệ thống"],
+    "vi_mo": ["CPI", "lạm phát", "GDP", "xuất khẩu", "nhập khẩu", "sản xuất công nghiệp", "FDI", "giải ngân đầu tư công", "PMI"],
+    "ngan_hang": ["ngân hàng", "NIM", "nợ xấu", "lợi nhuận quý", "tín dụng"],
+    "dau_khi": ["giá dầu", "dầu Brent", "dầu thô", "xăng dầu", "khí đốt", "lọc dầu", "OPEC", "Bộ Công Thương điều hành giá"],
+    "cong_nghe": ["công nghệ", "chuyển đổi số", "trí tuệ nhân tạo", "AI", "phần mềm", "Nhật Bản", "xuất khẩu phần mềm"],
+    "thi_truong": ["VN-Index", "VN30", "khối ngoại", "bán ròng", "mua ròng", "thanh khoản", "margin", "nâng hạng", "KRX", "chứng khoán"]
+  }
+}

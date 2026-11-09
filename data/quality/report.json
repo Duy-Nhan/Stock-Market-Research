@@ -1,0 +1,535 @@
+{
+ "generated_at": "2026-11-09T22:51:34+07:00",
+ "per_symbol": {
+  "FPT": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 3,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 237,
+    "first_example": {
+     "date": "2026-09-18",
+     "finfo_close": 71.7,
+     "finfo_adClose": 65.182,
+     "dchart_close_x1000": 65182.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.9216,
+     "median": 1.0,
+     "max": 1.0542
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0159,
+    "median_share_of_day_volume_in_last_bar": 0.0576,
+    "bars_checked_vs_floor_ceiling": 13779,
+    "bars_outside_floor_ceiling": 5515
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 0,
+    "examples": []
+   }
+  },
+  "CMG": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 7,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 70,
+    "first_example": {
+     "date": "2026-01-13",
+     "finfo_close": 36.8,
+     "finfo_adClose": 33.455,
+     "dchart_close_x1000": 33455.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.8266,
+     "median": 1.0,
+     "max": 1.4332
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      59
+     ],
+     [
+      "09:16",
+      2
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.01,
+    "median_share_of_day_volume_in_last_bar": 0.0491,
+    "bars_checked_vs_floor_ceiling": 5656,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 1,
+    "examples": [
+     [
+      "2026-09-09",
+      23300.0,
+      23100.0
+     ]
+    ]
+   }
+  },
+  "VCB": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 4,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 198,
+    "first_example": {
+     "date": "2026-07-22",
+     "finfo_close": 54.5,
+     "finfo_adClose": 54.048,
+     "dchart_close_x1000": 54048.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.9321,
+     "median": 1.0004,
+     "max": 1.1313
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0103,
+    "median_share_of_day_volume_in_last_bar": 0.0609,
+    "bars_checked_vs_floor_ceiling": 13735,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 1,
+    "examples": [
+     [
+      "2026-09-09",
+      58100.0,
+      58700.0
+     ]
+    ]
+   }
+  },
+  "TCB": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 1,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 265,
+    "first_example": {
+     "date": "2026-10-28",
+     "finfo_close": 33.5,
+     "finfo_adClose": 22.334,
+     "dchart_close_x1000": 22334.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.9822,
+     "median": 1.0,
+     "max": 1.0654
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0108,
+    "median_share_of_day_volume_in_last_bar": 0.1028,
+    "bars_checked_vs_floor_ceiling": 13759,
+    "bars_outside_floor_ceiling": 11954
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 1,
+    "examples": [
+     [
+      "2026-09-09",
+      21300.0,
+      21601.0
+     ]
+    ]
+   }
+  },
+  "GAS": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 3,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 238,
+    "first_example": {
+     "date": "2026-09-21",
+     "finfo_close": 88.6,
+     "finfo_adClose": 86.101,
+     "dchart_close_x1000": 86101.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.8607,
+     "median": 1.0,
+     "max": 1.1555
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0091,
+    "median_share_of_day_volume_in_last_bar": 0.0523,
+    "bars_checked_vs_floor_ceiling": 12613,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 28,
+    "examples": [
+     [
+      "2026-08-10",
+      79800.0,
+      77550.0
+     ],
+     [
+      "2026-08-11",
+      77500.0,
+      75315.0
+     ],
+     [
+      "2026-08-12",
+      80000.0,
+      77744.0
+     ],
+     [
+      "2026-08-13",
+      77900.0,
+      75703.0
+     ]
+    ]
+   }
+  },
+  "BSR": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 4,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 211,
+    "first_example": {
+     "date": "2026-08-10",
+     "finfo_close": 26.9,
+     "finfo_adClose": 26.599,
+     "dchart_close_x1000": 26599.0
+    },
+    "dchart_follows": "adClose (đã điều chỉnh)"
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.9509,
+     "median": 1.0,
+     "max": 1.0947
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0125,
+    "median_share_of_day_volume_in_last_bar": 0.0568,
+    "bars_checked_vs_floor_ceiling": 13754,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 2,
+    "examples": [
+     [
+      "2026-08-10",
+      26900.0,
+      26599.0
+     ],
+     [
+      "2026-09-09",
+      27000.0,
+      27350.0
+     ]
+    ]
+   }
+  },
+  "FUEVFVND": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 7,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 0
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.9539,
+     "median": 1.0,
+     "max": 1.0679
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0141,
+    "median_share_of_day_volume_in_last_bar": 0.0222,
+    "bars_checked_vs_floor_ceiling": 6723,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 0,
+    "examples": []
+   }
+  },
+  "E1VFVN30": {
+   "daily_vs_finfo": {
+    "days_compared": 273,
+    "finfo_days_missing_in_dchart": 0,
+    "close_mismatch": 0,
+    "volume_vs_nmVolume_mismatch": 7,
+    "close_mismatch_examples": []
+   },
+   "adjusted_prices": {
+    "days_where_adClose_differs_from_close": 0
+   },
+   "intraday_1m": {
+    "days_compared": 61,
+    "sum_1m_volume_over_nmVolume": {
+     "min": 0.8851,
+     "median": 1.0,
+     "max": 1.0978
+    },
+    "most_common_first_bar_hm": [
+     [
+      "09:15",
+      61
+     ]
+    ],
+    "most_common_last_bar_hm": [
+     [
+      "14:45",
+      61
+     ]
+    ],
+    "median_share_of_day_volume_in_first_bar": 0.0465,
+    "median_share_of_day_volume_in_last_bar": 0.019,
+    "bars_checked_vs_floor_ceiling": 9550,
+    "bars_outside_floor_ceiling": 0
+   },
+   "yahoo_crosscheck": {
+    "days_compared": 63,
+    "close_mismatch_rel_gt_0.5pct": 0,
+    "examples": []
+   }
+  }
+ },
+ "gold_gc_f_gaps": {
+  "bars": 2514,
+  "median_abs_daily_close_return_pct": 0.513,
+  "median_abs_open_gap_pct": 0.168,
+  "top_open_gaps": [
+   {
+    "date": "2020-03-16",
+    "prev_close": 1515.7,
+    "open": 1569.1,
+    "gap_pct": 3.52
+   },
+   {
+    "date": "2016-11-14",
+    "prev_close": 1265.5,
+    "open": 1227.8,
+    "gap_pct": 2.98
+   },
+   {
+    "date": "2026-06-12",
+    "prev_close": 4114.0,
+    "open": 4234.8999,
+    "gap_pct": 2.94
+   },
+   {
+    "date": "2024-08-01",
+    "prev_close": 2426.5,
+    "open": 2493.3999,
+    "gap_pct": 2.76
+   },
+   {
+    "date": "2019-06-20",
+    "prev_close": 1344.6,
+    "open": 1381.5,
+    "gap_pct": 2.74
+   },
+   {
+    "date": "2026-03-23",
+    "prev_close": 4574.8999,
+    "open": 4450.0,
+    "gap_pct": 2.73
+   },
+   {
+    "date": "2021-06-17",
+    "prev_close": 1861.4,
+    "open": 1812.3,
+    "gap_pct": 2.64
+   },
+   {
+    "date": "2026-06-18",
+    "prev_close": 4381.3999,
+    "open": 4275.1001,
+    "gap_pct": 2.43
+   }
+  ]
+ },
+ "calendar_FPT": {
+  "trading_days_since_2025_01_01": 459,
+  "weekend_bars": [],
+  "gaps_over_3_days": [
+   [
+    "2025-01-24",
+    "2025-02-03",
+    10
+   ],
+   [
+    "2025-04-04",
+    "2025-04-08",
+    4
+   ],
+   [
+    "2025-04-29",
+    "2025-05-05",
+    6
+   ],
+   [
+    "2025-08-29",
+    "2025-09-03",
+    5
+   ],
+   [
+    "2025-12-31",
+    "2026-01-05",
+    5
+   ],
+   [
+    "2026-02-13",
+    "2026-02-23",
+    10
+   ],
+   [
+    "2026-04-24",
+    "2026-04-28",
+    4
+   ],
+   [
+    "2026-04-29",
+    "2026-05-04",
+    5
+   ],
+   [
+    "2026-08-28",
+    "2026-09-03",
+    6
+   ]
+  ]
+ }
+}

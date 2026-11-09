@@ -1,0 +1,87 @@
+name: Cập nhật dữ liệu & nhận định kỹ thuật
+
+# Chạy các ngày trong tuần (UTC). 05:35 UTC = 12:35 giờ VN (nến ngày vàng GC=F — giờ nến CẦN KIỂM CHỨNG);
+# 08:35 UTC = 15:35 giờ VN (sau khi phiên cổ phiếu kết thúc 15:00 và qua ngưỡng 15:15 của journal.fresh_enough).
+# journal.py tự từ chối phát hành nếu nến chưa hoàn tất, nên chạy dư là an toàn.
+on:
+  schedule:
+    - cron: "35 5 * * 1-5"
+    - cron: "35 8 * * 1-5"
+  workflow_dispatch:
+
+concurrency:
+  group: data-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - run: pip install -r requirements-ci.txt
+
+      # Giá thô không nằm trong git (repo công khai). Cache có thể bị xóa: khi đó fetch_prices tự lấy lại toàn bộ cửa sổ từ nguồn.
+      - uses: actions/cache@v4
+        with:
+          path: |
+            data/prices
+            data/session
+          key: pricedata-v1-${{ github.run_id }}
+          restore-keys: pricedata-v1-
+
+      - name: Giá (tăng dần, tự lấy lại khi giá điều chỉnh)
+        run: python -m pipeline.fetch_prices
+
+      - name: Snapshot (vàng spot, SJC, USD/VND, phiên finfo)
+        run: python -m pipeline.fetch_snapshots
+
+      - name: Tin tức RSS (chỉ tiêu đề/link/mô tả ngắn)
+        run: python -m pipeline.fetch_news
+
+      - name: Kiểm tra chất lượng dữ liệu
+        run: python -m pipeline.verify
+
+      - name: Chỉ báo
+        run: python -m pipeline.build_indicators
+
+      - name: Sổ nhật ký — phát hành nhận định kỹ thuật (nếu đúng thời điểm) và chấm các nhận định đến hạn
+        run: python -m pipeline.journal all
+
+      - name: Test
+        run: python -m pytest pipeline/tests -q
+
+      - name: Commit dữ liệu
+        run: |
+          git config user.name "market-research-bot"
+          git config user.email "market-research-bot@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi dữ liệu."
+          else
+            git commit -m "data: cập nhật $(TZ=Asia/Ho_Chi_Minh date +'%Y-%m-%d %H:%M') (giờ VN)"
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+              sleep 5
+            done
+            echo "Push thất bại sau 3 lần" >&2
+            exit 1
+          fi
+
+  deploy:
+    needs: update
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

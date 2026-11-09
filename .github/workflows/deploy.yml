@@ -1,0 +1,65 @@
+name: Dựng & đăng trang (GitHub Pages)
+
+# Tái sử dụng bởi update-data.yml; cũng chạy khi có bản tin/giao diện mới được đẩy lên nhánh chính.
+# (Push bằng GITHUB_TOKEN không kích hoạt workflow khác, nên update-data gọi trực tiếp job này.)
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "reports/**"
+      - ".github/workflows/deploy.yml"
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - run: pip install -r requirements-ci.txt
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/prices
+            data/session
+          key: pricedata-v1-none
+          restore-keys: pricedata-v1-
+
+      # Cache có thể thiếu/cũ (ví dụ khi bản tin được đẩy từ routine): bổ sung tăng dần, thiếu thì lấy lại toàn bộ
+      - run: python -m pipeline.fetch_prices
+      - run: python -m pipeline.fetch_snapshots --only session
+
+      # site/data/ (trừ reports/) là sản phẩm build, sinh lại từ data/ — không lưu trong repo
+      - run: python -m pipeline.build_indicators
+      - run: python -m pipeline.export_site
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

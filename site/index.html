@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nghiên cứu thị trường</title>
+<meta name="description" content="Biểu đồ giá, chỉ báo kỹ thuật và phát lại phiên giao dịch cho vàng và cổ phiếu Việt Nam — phục vụ nghiên cứu và học tập.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">Nghiên cứu thị trường <small>Vàng · Chứng khoán VN</small></div>
+  <nav class="tabs" role="tablist" aria-label="Chuyên mục">
+    <button class="tab" role="tab" id="tab-chart" aria-selected="true">Biểu đồ</button>
+    <button class="tab" role="tab" id="tab-news" aria-selected="false">Bản tin &amp; nhận định</button>
+  </nav>
+  <div class="spacer"></div>
+  <div class="seg" role="group" aria-label="Chế độ hiển thị">
+    <button id="mode-basic" aria-pressed="false" title="Giao diện gọn cho người mới">Cơ bản</button>
+    <button id="mode-adv" aria-pressed="true" title="Đầy đủ chỉ báo và cấu trúc giá">Chuyên sâu</button>
+  </div>
+  <button class="icon-btn" id="theme-btn" title="Đổi giao diện sáng/tối">Sáng/Tối</button>
+</header>
+
+<main class="layout" id="view-chart">
+  <aside class="side">
+    <section class="card">
+      <h3>Danh mục theo dõi <span class="muted" id="board-date"></span></h3>
+      <div id="board"></div>
+    </section>
+    <section class="card" id="gold-card">
+      <h3>Vàng trong nước (SJC)</h3>
+      <div class="body" id="gold-body">Đang tải…</div>
+    </section>
+  </aside>
+
+  <section class="center">
+    <div class="card">
+      <div class="mobile-pick"><label>Mã <select id="sym-select" aria-label="Chọn mã"></select></label></div>
+      <div class="inst-head" id="inst-head"></div>
+      <div class="badges" id="badges"></div>
+      <div class="toolbar" id="toolbar"></div>
+      <div class="replay" id="replay"></div>
+      <div class="chart-wrap" id="chart-wrap">
+        <div class="loading">Đang tải biểu đồ…</div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="right">
+    <section class="card">
+      <h3>Nhận định kỹ thuật (theo quy tắc cố định)</h3>
+      <div class="body" id="panel-analysis">Đang tải…</div>
+    </section>
+    <section class="card">
+      <h3>Số liệu tại nến <span class="muted num" id="panel-time"></span></h3>
+      <div class="body" id="panel-values"></div>
+    </section>
+    <section class="card adv-only">
+      <h3>Cấu trúc giá (theo quy tắc, có tài liệu)</h3>
+      <div class="body" id="panel-structure"></div>
+    </section>
+    <section class="card">
+      <h3>Sổ nhật ký dự đoán</h3>
+      <div class="body" id="panel-journal">Đang tải…</div>
+    </section>
+  </aside>
+</main>
+
+<section class="view-news" id="view-news"><div id="news-root"><p class="muted">Đang tải bản tin…</p></div></section>
+
+<footer>
+  <b>Miễn trừ trách nhiệm:</b> Nội dung phục vụ nghiên cứu và học tập, không phải khuyến nghị đầu tư. Mọi quyết định đầu tư thuộc về người dùng.
+  Dữ liệu lấy từ các nguồn công khai không chính thức, <b>không phải dữ liệu thời gian thực</b> (cập nhật sau phiên/định kỳ; có thể trễ hoặc thiếu).
+  Giá cổ phiếu/ETF trên biểu đồ là <b>giá đã điều chỉnh</b> theo sự kiện doanh nghiệp. Khối lượng là khối lượng khớp lệnh (không gồm thỏa thuận); khối lượng nến phút chỉ mang tính tham khảo.
+  Vàng thế giới hiển thị là hợp đồng tương lai COMEX (GC=F), không phải giá spot XAU/USD.
+  Biểu đồ dùng thư viện <a href="https://www.tradingview.com/lightweight-charts/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Apache-2.0).
+  Công thức chỉ báo và quy tắc cấu trúc giá: xem tài liệu trong thư mục <code>docs/</code> của dự án.
+</footer>
+
+<script src="vendor/lightweight-charts.standalone.production.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

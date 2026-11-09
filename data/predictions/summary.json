@@ -1,0 +1,30 @@
+{
+ "generated_at": "2026-11-09T23:59:01+07:00",
+ "predictions_issued": 32,
+ "first_asof": "2026-11-09",
+ "last_asof": "2026-11-09",
+ "evaluations_scored": 0,
+ "min_sample_for_meaning": 30,
+ "excluding_adjustment_events": {
+  "n": 0,
+  "correct": 0,
+  "accuracy": null,
+  "ci95": null,
+  "share_outcome_flat": null,
+  "enough_sample": false
+ },
+ "overall": {
+  "n": 0,
+  "correct": 0,
+  "accuracy": null,
+  "ci95": null,
+  "share_outcome_flat": null,
+  "enough_sample": false
+ },
+ "by_horizon": {},
+ "by_symbol": {},
+ "by_confidence": {},
+ "by_direction": {},
+ "by_basis": {},
+ "note": "Tỷ lệ đúng chỉ có ý nghĩa khi n ≥ 30 và phải so với đường cơ sở (share_outcome_flat = tỷ lệ kết quả 'đi ngang'; xem thêm docs/backtest.md cho kết quả lịch sử). Mẫu chồng lấn ở khung 1–2 tuần."
+}

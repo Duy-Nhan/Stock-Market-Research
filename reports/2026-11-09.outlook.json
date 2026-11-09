@@ -1,0 +1,173 @@
+{
+ "_note": "Lập trường tin tức là ĐÁNH GIÁ của người viết dựa trên các trích dẫn đã kiểm chứng; +1 = tin tức nghiêng tăng, 0 = trung lập/trái chiều/không có tin riêng, -1 = nghiêng giảm.",
+ "stances": {
+  "XAUUSD": {
+   "next_session": {
+    "stance": 0,
+    "channel": "Báo cáo CPI Mỹ công bố thứ Ba có thể đẩy giá vàng đi cả hai chiều; mốc 4.000 USD/oz được các chuyên gia lấy làm ngưỡng quan sát, kịch bản giảm của Blue Line Futures là có điều kiện (nếu CPI cao) và chính chuyên gia này cũng kỳ vọng đây có thể là đợt thanh lọc cuối cùng.",
+    "claims": [
+     "c36",
+     "c37",
+     "c37b",
+     "c38"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Kỳ vọng Fed tăng lãi suất tháng 12 tạo áp lực giảm, nhưng các chuyên gia cũng nêu khả năng vàng giữ hỗ trợ trên 4.000 USD/oz và có thể đây là đợt thanh lọc cuối; Ngân hàng Thế giới dự báo giảm ở năm 2027 (dài hơn khung dự báo).",
+    "claims": [
+     "c37",
+     "c37b",
+     "c38",
+     "c38b",
+     "c40"
+    ]
+   }
+  },
+  "FPT": {
+   "next_session": {
+    "stance": -1,
+    "channel": "Khối ngoại bán ròng FPT trong phiên (số liệu thực tế) và ước tính của BSC về việc các quỹ ETF có thể bán trong kỳ cơ cấu. Suy diễn của người viết: áp lực cung ngắn hạn mang tính dòng tiền, không phải thay đổi triển vọng kinh doanh; số liệu ETF chỉ là ước tính, thời điểm thực hiện chưa rõ và tác động có thể trải nhiều phiên.",
+    "claims": [
+     "c5",
+     "c66",
+     "c68",
+     "c68b"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Không có thay đổi về triển vọng kinh doanh của FPT trong các nguồn đã thu thập; dòng tiền cơ cấu ETF thường mang tính tạm thời (suy diễn của người viết). FPT Telecom (FPT sở hữu 45,66%) phát hành cổ phiếu thưởng và chi cổ tức; nguồn không đánh giá mức độ trọng yếu của tin này với FPT.",
+    "claims": [
+     "c49",
+     "c66"
+    ]
+   }
+  },
+  "CMG": {
+   "next_session": {
+    "stance": 0,
+    "channel": "Không có tin riêng về CMG trong các nguồn đã thu thập hôm nay.",
+    "claims": []
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Không có tin riêng về CMG trong các nguồn đã thu thập hôm nay.",
+    "claims": []
+   }
+  },
+  "VCB": {
+   "next_session": {
+    "stance": 0,
+    "channel": "BSC ước tính dòng tiền ETF có thể mua VCB khoảng 18,4 tỷ đồng (số liệu ước tính) nhưng thị trường chung yếu; không có tin cơ bản riêng.",
+    "claims": [
+     "c69",
+     "c68"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Lãi suất huy động và cho vay đang được điều chỉnh giảm theo chỉ đạo của Ngân hàng Nhà nước; tác động lên biên lãi ròng của VCB chưa thể kết luận từ các nguồn đã thu thập.",
+    "claims": [
+     "c18",
+     "c17"
+    ]
+   }
+  },
+  "TCB": {
+   "next_session": {
+    "stance": 0,
+    "channel": "Khối ngoại mua ròng TCB 33 tỷ đồng, nằm trong nhóm được gom mạnh trên HOSE (nguồn nêu), trong bối cảnh khối ngoại bán ròng chung của thị trường; không có tin cơ bản riêng.",
+    "claims": [
+     "c11"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Lãi suất huy động và cho vay đang được điều chỉnh giảm theo chỉ đạo của Ngân hàng Nhà nước; tác động lên biên lãi ròng của TCB chưa thể kết luận từ các nguồn đã thu thập.",
+    "claims": [
+     "c18",
+     "c17"
+    ]
+   }
+  },
+  "GAS": {
+   "next_session": {
+    "stance": -1,
+    "channel": "GAS thuộc nhóm có ảnh hưởng tiêu cực nhất tới VN-Index phiên 09/11 (kết quả của phiên đã qua) và BSC ước tính rổ VN30 của các quỹ ETF có thể bán mạnh GAS khi cơ cấu. Suy diễn của người viết: áp lực cung ngắn hạn mang tính dòng tiền; số liệu chỉ là ước tính, thời điểm chưa rõ và có thể trải nhiều phiên.",
+    "claims": [
+     "c4",
+     "c65",
+     "c68b"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Không có tin riêng về kết quả kinh doanh của GAS trong các nguồn đã thu thập.",
+    "claims": []
+   }
+  },
+  "BSR": {
+   "next_session": {
+    "stance": 0,
+    "channel": "Tin nâng kế hoạch lợi nhuận đã được công bố từ cuối tuần trước; BSR đã vượt kế hoạch điều chỉnh sau ba quý và kế hoạch vẫn thấp hơn dự báo của nhiều nhóm phân tích nên có thể không phải tin bất ngờ (suy luận của người viết); cổ phiếu vẫn giảm trong phiên 09/11.",
+    "claims": [
+     "c44",
+     "c44b",
+     "c44c"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Lợi nhuận tăng vọt (tích cực) phụ thuộc giá dầu thô theo lời ban lãnh đạo; giá Brent hiện xấp xỉ mức bình quân quý III nên chưa rõ ràng là yếu tố bất lợi thêm: tác động trái chiều/chưa kết luận.",
+    "claims": [
+     "c44",
+     "c46",
+     "c62"
+    ]
+   }
+  },
+  "FUEVFVND": {
+   "next_session": {
+    "stance": -1,
+    "channel": "Khối ngoại bán ròng mạnh nhất 3 tuần và độ rộng toàn thị trường nghiêng về bên bán, trong khi ACBS vừa nêu có thể giải ngân thăm dò quanh 1.700–1.720 điểm, vừa khuyên giảm tỷ trọng nếu mất mốc 1.700. Nghiêng giảm cho phiên kế tiếp là suy luận của người viết từ áp lực bán đã diễn ra; các nguồn không dự báo hướng của phiên kế tiếp.",
+    "claims": [
+     "c7",
+     "c3",
+     "c9",
+     "c9b"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Các tổ chức bất đồng: SSI nghiêng về khả năng tạo đáy ngắn hạn trong tháng 11, VnDirect dự báo tích lũy 1.700–1.800 điểm, trong khi nhiều rủi ro (thanh khoản mỏng, bán ròng khối ngoại, margin cao) vẫn hiện hữu.",
+    "claims": [
+     "c59",
+     "c12",
+     "c58"
+    ]
+   }
+  },
+  "E1VFVN30": {
+   "next_session": {
+    "stance": -1,
+    "channel": "Khối ngoại bán ròng mạnh nhất 3 tuần và độ rộng toàn thị trường nghiêng về bên bán, trong khi ACBS vừa nêu có thể giải ngân thăm dò quanh 1.700–1.720 điểm, vừa khuyên giảm tỷ trọng nếu mất mốc 1.700. Nghiêng giảm cho phiên kế tiếp là suy luận của người viết từ áp lực bán đã diễn ra; các nguồn không dự báo hướng của phiên kế tiếp.",
+    "claims": [
+     "c7",
+     "c3",
+     "c9",
+     "c9b"
+    ]
+   },
+   "1_2_weeks": {
+    "stance": 0,
+    "channel": "Các tổ chức bất đồng: SSI nghiêng về khả năng tạo đáy ngắn hạn trong tháng 11, VnDirect dự báo tích lũy 1.700–1.800 điểm, trong khi nhiều rủi ro (thanh khoản mỏng, bán ròng khối ngoại, margin cao) vẫn hiện hữu.",
+    "claims": [
+     "c59",
+     "c12",
+     "c58"
+    ]
+   }
+  }
+ }
+}

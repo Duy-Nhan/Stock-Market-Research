@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Sản phẩm build, sinh lại từ data/prices bằng: python -m pipeline.build_indicators
+data/indicators/
+# Nhật ký đo độ trễ chỉ để phân tích cục bộ
+data/quality/latency_*.jsonl
+
+# Văn bản bài báo đã tải (chỉ để đọc/kiểm chứng, không đưa vào repo)
+data/news/cache/
+
+# Dữ liệu cho giao diện: sản phẩm build (python -m pipeline.export_site), CI tự sinh khi deploy.
+# Riêng site/data/reports/ (bản tin đã qua kiểm chứng) được commit.
+site/data/*
+!site/data/reports/
+
+# Chuỗi giá thô lấy từ nguồn không chính thức (chưa xác minh ToS): KHÔNG đưa vào lịch sử git của repo công khai.
+# CI lưu bằng actions/cache và tự lấy lại từ nguồn; chạy cục bộ: python -m pipeline.fetch_prices
+data/prices/
+data/session/

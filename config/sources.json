@@ -1,0 +1,217 @@
+{
+  "_meta": {
+    "description": "Nguồn dữ liệu & nguồn tin được duyệt. Trạng thái 'tested' = đã gọi thử thật ngày 2026-11-09; điều khoản sử dụng (ToS) chưa được xác minh trừ khi ghi khác.",
+    "last_surveyed": "2026-11-09"
+  },
+  "price_sources": {
+    "vndirect_dchart": {
+      "role": "primary — OHLCV cổ phiếu, ETF, chỉ số VN",
+      "base_url": "https://dchart-api.vndirect.com.vn/dchart/history",
+      "params": "symbol, resolution (1|5|15|30|60|D), from, to (unix giây)",
+      "official": false,
+      "tested": true,
+      "tested_findings": {
+        "daily_depth": "từ 2015-11-27 (khi hỏi 4000 ngày)",
+        "intraday_1m_depth": "~1 năm (29.594 nến, từ 2025-10-31)",
+        "intraday_60m_depth": ">= 2024-05-31",
+        "volume_semantics": "chỉ khối lượng khớp lệnh (nmVolume), KHÔNG gồm thỏa thuận (ptVolume); nến phút chỉ tham khảo (tổng ngày lệch tới ±10–40% ở một số phiên)",
+        "price_adjustment": "GIÁ ĐÃ ĐIỀU CHỈNH (khớp finfo adClose 273/273 phiên x 8 mã); lịch sử bị tính lại khi có sự kiện mới — pipeline tự phát hiện và lấy lại toàn bộ",
+        "candle_timestamp": "nhãn = thời điểm bắt đầu nến; nến phút ở 09:15–11:29, 13:00–14:29 và 14:45 (ATC)",
+        "price_unit": "nghìn đồng",
+        "rate_limit_smoke": "20 request liên tiếp trong 3,0 giây đều thành công"
+      },
+      "tos_verified": false,
+      "risk": "API không chính thức/không tài liệu — có thể đổi hoặc chặn bất kỳ lúc nào. Cần nguồn dự phòng (Yahoo .VN cho EOD)."
+    },
+    "vndirect_finfo": {
+      "role": "metadata & snapshot phiên: giá tham chiếu, trần, sàn, nmVolume, ptVolume, tên, sàn niêm yết",
+      "base_url": "https://api-finfo.vndirect.com.vn/v4",
+      "endpoints": [
+        "/stocks?q=code:FPT",
+        "/stock_prices?q=code:VCB~date:2026-11-09"
+      ],
+      "official": false,
+      "tested": true,
+      "tos_verified": false,
+      "note": "Host finfo-api.vndirect.com.vn lỗi kết nối khi thử; host api-finfo.vndirect.com.vn hoạt động."
+    },
+    "yahoo_finance_chart": {
+      "role": "dự phòng EOD cho cổ phiếu VN (hậu tố .VN); nguồn LỊCH SỬ vàng COMEX (GC=F)",
+      "base_url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}",
+      "official": false,
+      "tested": true,
+      "tested_findings": {
+        "vn_symbols": "8/8 mã (.VN) trả về dữ liệu EOD, giá đóng cửa khớp VNDirect",
+        "GC=F": "futures COMEX hợp đồng Dec 2026; 1m ~7 ngày, 5m ~60 ngày, 1h ~730 ngày, 1d >=10 năm",
+        "XAUUSD=X": "KHÔNG khả dụng (HTTP 404)"
+      },
+      "tos_verified": false,
+      "risk": "API không chính thức; điều khoản Yahoo hạn chế việc dùng dữ liệu — chỉ dùng cá nhân/nghiên cứu, không phân phối lại dữ liệu thô."
+    },
+    "gold_api_com": {
+      "role": "giá spot XAU/USD hiện tại (ảnh chụp, không có lịch sử)",
+      "url": "https://api.gold-api.com/price/XAU",
+      "tested": true,
+      "tos_verified": false
+    },
+    "swissquote_public_quotes": {
+      "role": "đối chiếu bid/ask spot XAU/USD hiện tại",
+      "url": "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/XAU/USD",
+      "tested": true,
+      "tos_verified": false,
+      "note": "Feed công khai không tài liệu; chỉ dùng đối chiếu."
+    },
+    "twelve_data": {
+      "role": "KHÔNG DÙNG (quyết định 2026-11-09: giữ toàn bộ nguồn miễn phí, không đăng ký dịch vụ)",
+      "status": "declined",
+      "note": "Có thể xem xét lại ở giai đoạn sau nếu cần lịch sử XAU/USD spot."
+    },
+    "sjc_via_vnappmob": {
+      "role": "giá vàng miếng SJC trong nước (mua/bán)",
+      "docs": "https://vapi-vnappmob.readthedocs.io/en/latest/gold.v2.html",
+      "key_endpoint": "https://api.vnappmob.com/api/request_api_key?scope=gold",
+      "data_endpoint": "https://api.vnappmob.com/api/v2/gold/sjc",
+      "official": false,
+      "tested": true,
+      "tested_findings": {
+        "key": "cấp tự động, JWT hết hạn sau 15 ngày (đã giải mã exp - iat = 1.296.000 giây) → pipeline phải tự xin khóa mới mỗi lần chạy",
+        "history": "tham số date bị bỏ qua (2 lần gọi 2 ngày khác nhau trả cùng bản ghi) → KHÔNG có lịch sử; phải tự lưu snapshot hằng ngày",
+        "unit": "đồng/lượng; trường buy_1l, sell_1l"
+      },
+      "tos_verified": false,
+      "risk": "Bên thứ ba, không phải SJC. Gắn nhãn 'SJC (qua vnappmob)'. sjc.com.vn chặn bot bằng Cloudflare — KHÔNG vượt rào."
+    },
+    "usdvnd_vietcombank": {
+      "role": "tỷ giá USD/VND để quy đổi vàng thế giới ra đồng/lượng và tính premium",
+      "url": "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=10",
+      "tested": true,
+      "tested_findings": "XML trả bảng tỷ giá; ghi chú của nguồn: 'Only one request every 5 minutes!'",
+      "tos_verified": false,
+      "note": "Chọn mua/chuyển khoản/bán và ghi rõ trong báo cáo. Tuân thủ giới hạn 1 request/5 phút."
+    }
+  },
+  "news_sources": {
+    "rss": {
+      "cafef_chung_khoan": {
+        "url": "https://cafef.vn/thi-truong-chung-khoan.rss",
+        "tested": true,
+        "items": 50
+      },
+      "vnexpress_kinh_doanh": {
+        "url": "https://vnexpress.net/rss/kinh-doanh.rss",
+        "tested": true,
+        "items": 60
+      },
+      "vietstock_co_phieu": {
+        "url": "https://vietstock.vn/830/chung-khoan/co-phieu.rss",
+        "tested": true,
+        "items": 20
+      },
+      "baodautu_tai_chinh_chung_khoan": {
+        "url": "https://baodautu.vn/tai-chinh-chung-khoan.rss",
+        "disabled": true,
+        "note": "2026-11-09: phản hồi 200 nhưng không có <item> (trả trang HTML ~1 KB). Tạm bỏ; tìm feed khác sau."
+      },
+      "cafef_vi_mo": {
+        "url": "https://cafef.vn/vi-mo-dau-tu.rss",
+        "tested": true,
+        "items": 50
+      },
+      "vietstock_vi_mo": {
+        "url": "https://vietstock.vn/761/kinh-te/vi-mo.rss",
+        "tested": true,
+        "items": 20
+      },
+      "vneconomy_chung_khoan": {
+        "url": "https://vneconomy.vn/chung-khoan.rss",
+        "tested": true,
+        "items": 50
+      },
+      "thanhnien_kinh_te": {
+        "url": "https://thanhnien.vn/rss/kinh-te.rss",
+        "tested": true,
+        "items": 50
+      },
+      "tuoitre_kinh_doanh": {
+        "url": "https://tuoitre.vn/rss/kinh-doanh.rss",
+        "tested": true,
+        "items": 50
+      },
+      "baochinhphu_kinh_te": {
+        "url": "https://baochinhphu.vn/kinh-te.rss",
+        "tested": true,
+        "items": 50,
+        "note": "Báo điện tử Chính phủ — nguồn gần với thông tin chính thức"
+      }
+    },
+    "primary_sources_to_check": [
+      {
+        "name": "Ngân hàng Nhà nước",
+        "domain": "sbv.gov.vn",
+        "use": "lãi suất điều hành, tỷ giá trung tâm, OMO, chính sách vàng"
+      },
+      {
+        "name": "Cục Thống kê (Bộ Tài chính)",
+        "domain": "nso.gov.vn",
+        "use": "CPI, GDP, sản xuất công nghiệp, xuất nhập khẩu — xác minh tên miền hiện hành"
+      },
+      {
+        "name": "HOSE",
+        "domain": "hsx.vn",
+        "use": "thông báo giao dịch, quy chế, danh mục VN30"
+      },
+      {
+        "name": "UBCKNN",
+        "domain": "ssc.gov.vn",
+        "use": "quy định thị trường"
+      },
+      {
+        "name": "Bộ Công Thương",
+        "domain": "moit.gov.vn",
+        "use": "điều hành giá xăng dầu — liên quan GAS, BSR"
+      },
+      {
+        "name": "World Gold Council",
+        "domain": "gold.org",
+        "use": "cung cầu vàng toàn cầu, dòng tiền ETF vàng"
+      },
+      {
+        "name": "Federal Reserve",
+        "domain": "federalreserve.gov",
+        "use": "lãi suất Fed — yếu tố chính của XAU/USD"
+      },
+      {
+        "name": "Công bố thông tin doanh nghiệp",
+        "domain": "qua HOSE/trang IR của từng công ty",
+        "use": "KQKD, cổ tức, GDKHQ"
+      }
+    ],
+    "policy": "Chỉ lưu tiêu đề, link, thời điểm đăng và trích đoạn ngắn; không sao chép nguyên văn bài báo. Tên miền và RSS phải được kiểm tra lại định kỳ."
+  },
+  "report_sources": {
+    "_note": "Tên miền được phép trích dẫn trong bản tin. 'definition' dùng cho định nghĩa thuật ngữ (nguồn tham khảo mở, ghi rõ trong báo cáo).",
+    "news_domains": [
+      "vneconomy.vn",
+      "cafef.vn",
+      "vnexpress.net",
+      "vietstock.vn",
+      "thanhnien.vn",
+      "tuoitre.vn",
+      "baochinhphu.vn"
+    ],
+    "primary_domains": [
+      "sbv.gov.vn",
+      "nso.gov.vn",
+      "hsx.vn",
+      "hnx.vn",
+      "ssc.gov.vn",
+      "moit.gov.vn",
+      "gold.org",
+      "federalreserve.gov"
+    ],
+    "definition_domains": [
+      "en.wikipedia.org",
+      "vi.wikipedia.org"
+    ]
+  }
+}

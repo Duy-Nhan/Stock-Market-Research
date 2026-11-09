@@ -1,0 +1,4 @@
+# Phụ thuộc chạy pipeline trên CI (không gồm TA-Lib: chỉ dùng cho test đối chiếu cục bộ, test tự bỏ qua nếu thiếu)
+pandas>=2.0
+numpy>=1.24
+pytest>=7
