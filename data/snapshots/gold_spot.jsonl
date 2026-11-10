@@ -3,3 +3,4 @@
 {"fetched_at": "2026-11-09T23:07:03+07:00", "gold_api": {"price": 4126.299805, "source_updated_at": "2026-11-09T16:06:55Z"}, "swissquote_prime": {"bid": 4126.578, "ask": 4127.212, "source_ts_ms": 1794240424740}, "dedupe": "1794240424740"}
 {"fetched_at": "2026-11-09T23:32:17+07:00", "gold_api": {"price": 4117.100098, "source_updated_at": "2026-11-09T16:31:55Z"}, "swissquote_prime": {"bid": 4115.886, "ask": 4116.524, "source_ts_ms": 1794241939233}, "dedupe": "1794241939233"}
 {"fetched_at": "2026-11-10T20:45:08+07:00", "gold_api": {"price": 4058.399902, "source_updated_at": "2026-11-10T13:45:02Z"}, "swissquote_prime": {"bid": 4055.998, "ask": 4056.632, "source_ts_ms": 1794318309149}, "dedupe": "1794318309149"}
+{"fetched_at": "2026-11-10T23:36:01+07:00", "gold_api": {"price": 4023.0, "source_updated_at": "2026-11-10T16:35:57Z"}, "swissquote_prime": {"bid": 4022.631, "ask": 4023.269, "source_ts_ms": 1794328562606}, "dedupe": "1794328562606"}
