@@ -117,7 +117,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 50900.0,
+     "reference_close_adjusted_at_scoring": 51000.0,
+     "return": -0.001961,
+     "tau": 0.008424,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_FPT_1_2_weeks",
@@ -354,7 +369,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 17600.0,
+     "reference_close_adjusted_at_scoring": 17550.0,
+     "return": 0.002849,
+     "tau": 0.00876,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_CMG_1_2_weeks",
@@ -580,7 +610,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 53800.0,
+     "reference_close_adjusted_at_scoring": 53600.0,
+     "return": 0.003731,
+     "tau": 0.005021,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": true,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_VCB_1_2_weeks",
@@ -832,7 +877,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 22000.0,
+     "reference_close_adjusted_at_scoring": 21600.0,
+     "return": 0.018519,
+     "tau": 0.005728,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_TCB_1_2_weeks",
@@ -1082,7 +1142,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 73100.0,
+     "reference_close_adjusted_at_scoring": 73000.0,
+     "return": 0.00137,
+     "tau": 0.008469,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": true,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_GAS_1_2_weeks",
@@ -1339,7 +1414,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 25450.0,
+     "reference_close_adjusted_at_scoring": 25950.0,
+     "return": -0.019268,
+     "tau": 0.010402,
+     "outcome": -1,
+     "outcome_vi": "giảm",
+     "correct": true,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_BSR_1_2_weeks",
@@ -1589,7 +1679,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 31720.0,
+     "reference_close_adjusted_at_scoring": 31170.0,
+     "return": 0.017645,
+     "tau": 0.004356,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_FUEVFVND_1_2_weeks",
@@ -1840,7 +1945,22 @@
    },
    "engine_version": "1.0",
    "rules_doc": "docs/analysis.md",
-   "evaluations": []
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 33510.0,
+     "reference_close_adjusted_at_scoring": 33200.0,
+     "return": 0.009337,
+     "tau": 0.004747,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ]
   },
   {
    "id": "2026-11-09_E1VFVN30_1_2_weeks",
@@ -2088,7 +2208,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 50900.0,
+     "reference_close_adjusted_at_scoring": 51000.0,
+     "return": -0.001961,
+     "tau": 0.008424,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": -1,
     "confidence": "medium"
@@ -2357,7 +2492,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 17600.0,
+     "reference_close_adjusted_at_scoring": 17550.0,
+     "return": 0.002849,
+     "tau": 0.00876,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": -1,
     "confidence": "medium"
@@ -2609,7 +2759,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 53800.0,
+     "reference_close_adjusted_at_scoring": 53600.0,
+     "return": 0.003731,
+     "tau": 0.005021,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": true,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": 0,
     "confidence": "low"
@@ -2892,7 +3057,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 22000.0,
+     "reference_close_adjusted_at_scoring": 21600.0,
+     "return": 0.018519,
+     "tau": 0.005728,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": 0,
     "confidence": "low"
@@ -3173,7 +3353,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 73100.0,
+     "reference_close_adjusted_at_scoring": 73000.0,
+     "return": 0.00137,
+     "tau": 0.008469,
+     "outcome": 0,
+     "outcome_vi": "đi ngang",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": 0,
     "confidence": "low"
@@ -3459,7 +3654,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 25450.0,
+     "reference_close_adjusted_at_scoring": 25950.0,
+     "return": -0.019268,
+     "tau": 0.010402,
+     "outcome": -1,
+     "outcome_vi": "giảm",
+     "correct": true,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": -1,
     "confidence": "medium"
@@ -3742,7 +3952,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 31720.0,
+     "reference_close_adjusted_at_scoring": 31170.0,
+     "return": 0.017645,
+     "tau": 0.004356,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": -1,
     "confidence": "medium"
@@ -4027,7 +4252,22 @@
    "engine_version": "1.0",
    "rules_doc": "docs/report-methodology.md §3",
    "basis": "engine+news",
-   "evaluations": [],
+   "evaluations": [
+    {
+     "h": 1,
+     "eval_date": "2026-11-10",
+     "scored_at": "2026-11-10T20:45:40+07:00",
+     "close_adjusted_at_scoring": 33510.0,
+     "reference_close_adjusted_at_scoring": 33200.0,
+     "return": 0.009337,
+     "tau": 0.004747,
+     "outcome": 1,
+     "outcome_vi": "tăng",
+     "correct": false,
+     "adjustment_event": false,
+     "adjustment_ratio": 1.0
+    }
+   ],
    "engine_only": {
     "direction": -1,
     "confidence": "medium"
