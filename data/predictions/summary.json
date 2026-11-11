@@ -1,193 +1,193 @@
 {
- "generated_at": "2026-11-10T23:36:32+07:00",
- "predictions_issued": 48,
+ "generated_at": "2026-11-11T19:56:42+07:00",
+ "predictions_issued": 64,
  "first_asof": "2026-11-09",
- "last_asof": "2026-11-10",
- "evaluations_scored": 16,
+ "last_asof": "2026-11-11",
+ "evaluations_scored": 24,
  "min_sample_for_meaning": 30,
  "excluding_adjustment_events": {
-  "n": 16,
-  "correct": 5,
-  "accuracy": 0.3125,
+  "n": 24,
+  "correct": 6,
+  "accuracy": 0.25,
   "ci95": [
-   0.1416,
-   0.556
+   0.12,
+   0.449
   ],
-  "share_outcome_flat": 0.5,
+  "share_outcome_flat": 0.5417,
   "enough_sample": false
  },
  "overall": {
-  "n": 16,
-  "correct": 5,
-  "accuracy": 0.3125,
+  "n": 24,
+  "correct": 6,
+  "accuracy": 0.25,
   "ci95": [
-   0.1416,
-   0.556
+   0.12,
+   0.449
   ],
-  "share_outcome_flat": 0.5,
+  "share_outcome_flat": 0.5417,
   "enough_sample": false
  },
  "by_horizon": {
   "next_session@h1": {
-   "n": 16,
-   "correct": 5,
-   "accuracy": 0.3125,
+   "n": 24,
+   "correct": 6,
+   "accuracy": 0.25,
    "ci95": [
-    0.1416,
-    0.556
+    0.12,
+    0.449
    ],
-   "share_outcome_flat": 0.5,
+   "share_outcome_flat": 0.5417,
    "enough_sample": false
   }
  },
  "by_symbol": {
   "BSR": {
-   "n": 2,
+   "n": 3,
    "correct": 2,
-   "accuracy": 1.0,
+   "accuracy": 0.6667,
    "ci95": [
-    0.3424,
-    1.0
+    0.2077,
+    0.9385
    ],
-   "share_outcome_flat": 0.0,
+   "share_outcome_flat": 0.3333,
    "enough_sample": false
   },
   "CMG": {
-   "n": 2,
+   "n": 3,
    "correct": 0,
    "accuracy": 0.0,
    "ci95": [
     0.0,
-    0.6576
+    0.5615
    ],
    "share_outcome_flat": 1.0,
    "enough_sample": false
   },
   "E1VFVN30": {
-   "n": 2,
-   "correct": 0,
-   "accuracy": 0.0,
+   "n": 3,
+   "correct": 1,
+   "accuracy": 0.3333,
    "ci95": [
-    0.0,
-    0.6576
+    0.0615,
+    0.7923
    ],
-   "share_outcome_flat": 0.0,
+   "share_outcome_flat": 0.3333,
    "enough_sample": false
   },
   "FPT": {
-   "n": 2,
+   "n": 3,
    "correct": 0,
    "accuracy": 0.0,
    "ci95": [
     0.0,
-    0.6576
+    0.5615
    ],
    "share_outcome_flat": 1.0,
    "enough_sample": false
   },
   "FUEVFVND": {
-   "n": 2,
+   "n": 3,
    "correct": 0,
    "accuracy": 0.0,
    "ci95": [
     0.0,
-    0.6576
+    0.5615
    ],
-   "share_outcome_flat": 0.0,
+   "share_outcome_flat": 0.3333,
    "enough_sample": false
   },
   "GAS": {
-   "n": 2,
+   "n": 3,
    "correct": 1,
-   "accuracy": 0.5,
+   "accuracy": 0.3333,
    "ci95": [
-    0.0945,
-    0.9055
+    0.0615,
+    0.7923
    ],
-   "share_outcome_flat": 1.0,
+   "share_outcome_flat": 0.6667,
    "enough_sample": false
   },
   "TCB": {
-   "n": 2,
+   "n": 3,
    "correct": 0,
    "accuracy": 0.0,
    "ci95": [
     0.0,
-    0.6576
+    0.5615
    ],
    "share_outcome_flat": 0.0,
    "enough_sample": false
   },
   "VCB": {
-   "n": 2,
+   "n": 3,
    "correct": 2,
-   "accuracy": 1.0,
+   "accuracy": 0.6667,
    "ci95": [
-    0.3424,
-    1.0
+    0.2077,
+    0.9385
    ],
-   "share_outcome_flat": 1.0,
+   "share_outcome_flat": 0.6667,
    "enough_sample": false
   }
  },
  "by_confidence": {
   "low": {
-   "n": 8,
-   "correct": 4,
-   "accuracy": 0.5,
+   "n": 12,
+   "correct": 5,
+   "accuracy": 0.4167,
    "ci95": [
-    0.2152,
-    0.7848
+    0.1933,
+    0.6805
    ],
-   "share_outcome_flat": 0.625,
+   "share_outcome_flat": 0.5,
    "enough_sample": false
   },
   "medium": {
-   "n": 8,
+   "n": 12,
    "correct": 1,
-   "accuracy": 0.125,
+   "accuracy": 0.0833,
    "ci95": [
-    0.0224,
-    0.4709
+    0.0149,
+    0.3539
    ],
-   "share_outcome_flat": 0.375,
+   "share_outcome_flat": 0.5833,
    "enough_sample": false
   }
  },
  "by_direction": {
   "down": {
-   "n": 11,
+   "n": 15,
    "correct": 2,
-   "accuracy": 0.1818,
+   "accuracy": 0.1333,
    "ci95": [
-    0.0514,
-    0.477
+    0.0374,
+    0.3788
    ],
-   "share_outcome_flat": 0.4545,
+   "share_outcome_flat": 0.6,
    "enough_sample": false
   },
   "flat": {
-   "n": 5,
-   "correct": 3,
-   "accuracy": 0.6,
+   "n": 9,
+   "correct": 4,
+   "accuracy": 0.4444,
    "ci95": [
-    0.2307,
-    0.8824
+    0.1888,
+    0.7334
    ],
-   "share_outcome_flat": 0.6,
+   "share_outcome_flat": 0.4444,
    "enough_sample": false
   }
  },
  "by_basis": {
   "engine": {
-   "n": 8,
-   "correct": 3,
-   "accuracy": 0.375,
+   "n": 16,
+   "correct": 4,
+   "accuracy": 0.25,
    "ci95": [
-    0.1368,
-    0.6943
+    0.1018,
+    0.495
    ],
-   "share_outcome_flat": 0.5,
+   "share_outcome_flat": 0.5625,
    "enough_sample": false
   },
   "engine+news": {
