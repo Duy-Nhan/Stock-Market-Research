@@ -3,6 +3,104 @@
  "items": [
   {
    "source": "cafef_chung_khoan",
+   "title": "Trong khi Jensen Huang mất gần 16 tỷ USD, ông Phạm Nhật Vượng vừa có thêm 9.900 tỷ đồng",
+   "link": "https://cafef.vn/trong-khi-jensen-huang-mat-gan-16-ty-usd-ong-pham-nhat-vuong-vua-co-them-9900-ty-dong-188261111230256873.chn",
+   "published": "2026-11-11T23:02:00+07:00",
+   "snippet": "Chỉ sau hai phiên đầu tuần, CEO Nvidia Jensen Huang mất gần 16 tỷ USD. Ở cách đó nửa vòng trái đất, tài sản tỷ phú Phạm Nhật Vượng lại đi theo chiều ngược lại.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:14+07:00"
+  },
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "Nông sản vùng cao lên sàn gặp khó từ chốt đơn đến giao hàng",
+   "link": "https://vnexpress.net/nong-san-vung-cao-len-san-gap-kho-tu-chot-don-den-giao-hang-5143565.html",
+   "published": "2026-11-11T22:36:47+07:00",
+   "snippet": "Dồn dập đơn sau mỗi buổi phát trực tiếp nhưng không kịp đóng gói, bảo quản khiến nông sản vùng cao khó cạnh tranh sòng phẳng về giá lẫn chất lượng trên sàn online.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:15+07:00"
+  },
+  {
+   "source": "vneconomy_chung_khoan",
+   "title": "VN-Index tăng nhẹ, dòng tiền phân hóa, khối ngoại mua ròng VIC",
+   "link": "https://vneconomy.vn/vn-index-tang-nhe-dong-tien-phan-hoa-khoi-ngoai-mua-rong-vic.htm",
+   "published": "2026-11-11T22:21:23+07:00",
+   "snippet": "Giao dịch của nhà đầu tư nước ngoài ghi nhận sự phân hóa giữa các cổ phiếu. VIC được mua ròng mạnh nhất với 138,8 tỷ đồng, tiếp đến là POW với 78,1 tỷ đồng, VHM với 47 tỷ đồng, HDB với 42 tỷ đồng và TPB với 41,3 tỷ đồng.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-11T23:32:20+07:00"
+  },
+  {
+   "source": "vneconomy_chung_khoan",
+   "title": "VN-Index hồi phục nhẹ, hướng tới vùng 1760 điểm",
+   "link": "https://vneconomy.vn/vn-index-hoi-phuc-nhe-huong-toi-vung-1760-diem.htm",
+   "published": "2026-11-11T22:21:09+07:00",
+   "snippet": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 12/11/2026.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-11T23:32:20+07:00"
+  },
+  {
+   "source": "cafef_chung_khoan",
+   "title": "Phát hiện một cựu giáo viên có tài sản gần 4.000 tỷ đồng, chồng là tỷ phú nổi tiếng Việt Nam",
+   "link": "https://cafef.vn/phat-hien-mot-cuu-giao-vien-co-tai-san-gan-4000-ty-dong-chong-la-ty-phu-noi-tieng-viet-nam-188261111151338353.chn",
+   "published": "2026-11-11T21:55:00+07:00",
+   "snippet": "Từng có 3 năm đứng trên bục giảng, cựu giáo viên này sau đó rẽ hướng kinh doanh và nắm giữ khối cổ phiếu trị giá gần 4.000 tỷ đồng.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:14+07:00"
+  },
+  {
+   "source": "cafef_chung_khoan",
+   "title": "Hãng xe của tỷ phú Phạm Nhật Vượng lập kỷ lục mới",
+   "link": "https://cafef.vn/hang-xe-cua-ty-phu-pham-nhat-vuong-lap-ky-luc-moi-188261111212602173.chn",
+   "published": "2026-11-11T21:27:00+07:00",
+   "snippet": "Chỉ sau 10 tháng, VinFast đã bàn giao hơn 200.000 ô tô điện tại Việt Nam, xác lập mức doanh số cao nhất từ trước đến nay của một hãng xe trong khoảng thời gian này.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:14+07:00"
+  },
+  {
+   "source": "thanhnien_kinh_te",
+   "title": "3 kịch bản cho thị trường bất động sản",
+   "link": "https://thanhnien.vn/3-kich-ban-cho-thi-truong-bat-dong-san-185261111183922301.htm",
+   "published": "2026-11-11T20:21:00+07:00",
+   "snippet": "Quá trình phục hồi thị trường bất động sản sẽ tiếp tục nhưng có chọn lọc, phân hóa giữa các sản phẩm và địa bàn. Nhưng nếu nguồn cung giá cao tăng nhanh, chi phí vốn lớn, thanh khoản yếu có thể kéo dài.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-11T23:32:21+07:00"
+  },
+  {
+   "source": "thanhnien_kinh_te",
+   "title": "Những thông tin tài chính nào thuộc bí mật nhà nước?",
+   "link": "https://thanhnien.vn/nhung-thong-tin-tai-chinh-nao-thuoc-bi-mat-nha-nuoc-185261111182715758.htm",
+   "published": "2026-11-11T20:18:00+07:00",
+   "snippet": "Thủ tướng Chính phủ vừa ban hành danh mục bí mật nhà nước lĩnh vực tài chính, trong đó có thông tin về ngân sách, dự trữ quốc gia, hoạt động kho bạc, hải quan và các giải pháp ổn định thị trường chứng khoán.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-11T23:32:21+07:00"
+  },
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "Giá trần phát điện từ pin lưu trữ hơn 3.200 đồng một kWh",
+   "link": "https://vnexpress.net/gia-tran-phat-dien-tu-pin-luu-tru-hon-3-200-dong-mot-kwh-5143560.html",
+   "published": "2026-11-11T20:00:00+07:00",
+   "snippet": "Từ 11/11, giá phát điện tối đa từ hệ thống pin lưu trữ (BESS) là 3.209,98 đồng một kWh, cao hơn gần 49% so với giá bán lẻ điện bình quân hiện hành.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:15+07:00"
+  },
+  {
+   "source": "cafef_chung_khoan",
    "title": "Hai cổ phiếu ngân hàng bị tự doanh CTCK bán ròng hàng trăm tỷ đồng phiên 11/11",
    "link": "https://cafef.vn/hai-co-phieu-ngan-hang-bi-tu-doanh-ctck-ban-rong-hang-tram-ty-dong-phien-11-11-188261111193221156.chn",
    "published": "2026-11-11T19:32:00+07:00",
@@ -2113,6 +2211,94 @@
     "thi_truong"
    ],
    "first_seen": "2026-11-11T19:56:34+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "TP.HCM: Doanh nghiệp công nghệ, tài chính... tung chính sách 'khủng' cho đợt khuyến mãi, kích cầu",
+   "link": "https://tuoitre.vn/tphcm-doanh-nghiep-cong-nghe-tai-chinh-tung-chinh-sach-khung-cho-dot-khuyen-mai-kich-cau-100261111224450492.htm",
+   "published": null,
+   "snippet": "Đông đảo hiệp hội, doanh nghiệp bán lẻ, công nghệ, ngân hàng, chính quyền cơ sở... khẳng định sẵn sàng liên kết, tung ưu đãi thực chất và ứng dụng giải pháp số để tạo điểm nhấn cho đợt kích cầu thêm bùng nổ, tạo sức bật mới cho kinh tế thàn",
+   "tickers": [],
+   "themes": [
+    "ngan_hang",
+    "cong_nghe"
+   ],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "TP.HCM tưng bừng khởi động chuỗi hoạt động khuyến mãi, kích cầu lớn trên toàn địa bàn",
+   "link": "https://tuoitre.vn/tphcm-tung-bung-khoi-dong-chuoi-hoat-dong-khuyen-mai-kich-cau-lon-tren-toan-dia-ban-10026111121401956.htm",
+   "published": null,
+   "snippet": "Hàng loạt chương trình khuyến mại được đông đảo doanh nghiệp, sàn thương mại điện tử, hệ thống bán lẻ... công bố đã làm bùng nổ chương trình 'Vibrant HCMC - Shopping Season 2026'.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Thêm 5 dự án nhà ở tại TP.HCM mà người nước ngoài được phép sở hữu",
+   "link": "https://tuoitre.vn/them-5-du-an-nha-o-tai-tphcm-ma-nguoi-nuoc-ngoai-duoc-phep-so-huu-100261111202158076.htm",
+   "published": null,
+   "snippet": "Theo công văn số 11050, UBND TP.HCM chấp thuận công bố danh mục đợt 15 gồm 5 dự án đầu tư xây dựng nhà ở thương mại trên địa bàn đủ điều kiện cho tổ chức, cá nhân nước ngoài được phép sở hữu.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Hãng mì gà cay Samyang đầu tư hơn 4.000 tỉ đồng xây nhà máy tại Việt Nam",
+   "link": "https://tuoitre.vn/hang-mi-ga-cay-samyang-dau-tu-hon-4000-ti-dong-xay-nha-may-tai-viet-nam-100261111195737752.htm",
+   "published": null,
+   "snippet": "Hãng mì ăn liền Samyang của Hàn Quốc dự kiến đầu tư khoảng 4.200 tỉ đồng xây dựng nhà máy tại Bắc Ninh, tận dụng lợi thế chi phí sản xuất và logistics của Việt Nam để mở rộng thị trường ASEAN và châu Âu.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Hơn 1.000 gian hàng giới thiệu công nghệ xây dựng xanh tại triển lãm Vietbuild",
+   "link": "https://tuoitre.vn/hon-1000-gian-hang-gioi-thieu-cong-nghe-xay-dung-xanh-tai-trien-lam-vietbuild-100261111175328081.htm",
+   "published": null,
+   "snippet": "Gần 300 doanh nghiệp trong và ngoài nước hội tụ tại Vietbuild Hà Nội 2026, giới thiệu nhiều công nghệ, sản phẩm xanh và giải pháp xây dựng hiện đại.",
+   "tickers": [],
+   "themes": [
+    "cong_nghe"
+   ],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Quảng Ninh tính xây cầu Cửa Lục 25.560 tỉ đồng, có công viên và sân đỗ taxi bay",
+   "link": "https://tuoitre.vn/quang-ninh-tinh-xay-cau-cua-luc-25560-ti-dong-co-cong-vien-va-san-do-taxi-bay-100261111190635697.htm",
+   "published": null,
+   "snippet": "Quảng Ninh đang lên phương án xây cầu Cửa Lục quy mô 10 làn xe với thiết kế hai tầng, có tích hợp công viên sinh thái trên biển, phố đi bộ, trung tâm hội nghị và cả sân cất - hạ cánh cho taxi bay.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Lãi suất đi lên, giá sơ cấp chưa 'hạ nhiệt' đáng kể",
+   "link": "https://tuoitre.vn/lai-suat-di-len-gia-so-cap-chua-ha-nhiet-dang-ke-100261111184805708.htm",
+   "published": null,
+   "snippet": "Dù nguồn cung nhà ở phục hồi mạnh, thanh khoản thị trường bất động sản lại có dấu hiệu chững lại khi giá bán neo cao, chi phí vay vốn gia tăng.",
+   "tickers": [],
+   "themes": [
+    "lai_suat_ty_gia",
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-11T23:32:22+07:00"
+  },
+  {
+   "source": "baochinhphu_kinh_te",
+   "title": "Đóng điện thành công đường dây 220 kV Thanh Hóa-Sầm Sơn",
+   "link": "https://baochinhphu.vn/dong-dien-thanh-cong-duong-day-220-kv-thanh-hoa-sam-son-102261111211657016.htm",
+   "published": null,
+   "snippet": "(Chinhphu.vn) - Chiều 11/11, Tổng Công ty Truyền tải điện quốc gia (EVNNPT), Ban Quản lý dự án các công trình điện miền Trung và các đơn vị liên quan đã đóng điện thành công đường dây 220 kV Thanh Hóa-Sầm Sơn.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-11T23:32:24+07:00"
   }
  ]
 }
