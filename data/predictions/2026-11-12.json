@@ -1,0 +1,1997 @@
+{
+ "asof_date": "2026-11-12",
+ "predictions": [
+  {
+   "id": "2026-11-12_FPT_next_session",
+   "symbol": "FPT",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:20+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -4,
+    "n_agree": 4,
+    "n_opp": 0,
+    "confluence_note": "4/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "1": 0.008299
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 49550.0,
+   "reference_close_actual": 49550.0,
+   "atr14": 1644.835,
+   "invalidation": {
+    "level": 55896.6667,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 55.897 (vùng kháng cự).",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 55.897, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 49.550 dưới EMA9 (51.433), EMA9 dưới EMA20 (53.548), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 49550.0
+      },
+      {
+       "name": "ema9",
+       "value": 51433.18037314892
+      },
+      {
+       "name": "ema20",
+       "value": 53547.50463483711
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "ADX = 46,0 ≥ 25 (xu hướng mạnh): theo chiều lực chi phối, +DI = 15,1 < −DI = 36,3.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 46.013647389422246
+      },
+      {
+       "name": "plus_di14",
+       "value": 15.111437322164196
+      },
+      {
+       "name": "minus_di14",
+       "value": 36.3129254417119
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Nến cuối giảm với khối lượng bằng 1,94× trung bình 20 nến: khối lượng cao (≥ 1,25×) đi cùng chiều nến.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 1.940291999775898
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá sát kháng cự 49.586 (cách 0,02 atr).",
+     "evidence": [
+      {
+       "name": "resistance",
+       "value": 49586.5
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": null,
+    "resistance": 49586.5,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_FPT_1_2_weeks",
+   "symbol": "FPT",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:20+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -4,
+    "n_agree": 4,
+    "n_opp": 0,
+    "confluence_note": "4/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "5": 0.018557,
+    "10": 0.026243
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 49550.0,
+   "reference_close_actual": 49550.0,
+   "atr14": 1644.835,
+   "invalidation": {
+    "level": 55896.6667,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 55.897 (vùng kháng cự).",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 55.897, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow hỗn hợp; EMA20 (53.548) dưới EMA50 (57.510); giá đóng cửa 49.550 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": 0
+      },
+      {
+       "name": "ema20",
+       "value": 53547.50463483711
+      },
+      {
+       "name": "ema50",
+       "value": 57509.67839221283
+      },
+      {
+       "name": "close",
+       "value": 49550.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "MACD histogram -63,70 (âm); RSI(14) = 27,6 (dưới 50). Hai chỉ báo cùng phía.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": -63.70055504075026
+      },
+      {
+       "name": "rsi14",
+       "value": 27.642980634653696
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -3150.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -29694007.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá sát kháng cự 49.586 (cách 0,02 atr).",
+     "evidence": [
+      {
+       "name": "resistance",
+       "value": 49586.5
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": null,
+    "resistance": 49586.5,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_CMG_next_session",
+   "symbol": "CMG",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:27+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "medium",
+   "confluence": {
+    "net": -2,
+    "n_agree": 2,
+    "n_opp": 0,
+    "confluence_note": "2 nhóm đồng thuận, 0 nhóm ngược chiều"
+   },
+   "tau": {
+    "1": 0.008039
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 17600.0,
+   "reference_close_actual": 17600.0,
+   "atr14": 565.9412,
+   "invalidation": {
+    "level": 18448.91174118828,
+    "basis": "1.5 ATR trên giá đóng cửa"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 18.449 (1.5 ATR trên giá đóng cửa).",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 18.449, nhận định giảm bị vô hiệu; kháng cự kế tiếp quan sát quanh 23.600.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 17.600 dưới EMA9 (17.890), EMA9 dưới EMA20 (18.594), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 17600.0
+      },
+      {
+       "name": "ema9",
+       "value": 17889.984056694906
+      },
+      {
+       "name": "ema20",
+       "value": 18594.400690064893
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "ADX = 29,4 ≥ 25 (xu hướng mạnh): theo chiều lực chi phối, +DI = 15,7 < −DI = 33,2.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 29.42895864591918
+      },
+      {
+       "name": "plus_di14",
+       "value": 15.737973194778139
+      },
+      {
+       "name": "minus_di14",
+       "value": 33.16038393514461
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối giảm với khối lượng bằng 0,91× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.9062546635157357
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Không có mô hình nến/mô hình giá đã xác nhận và giá không sát hỗ trợ/kháng cự → trung lập.",
+     "evidence": [],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": null,
+    "resistance": 23600.0,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_CMG_1_2_weeks",
+   "symbol": "CMG",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:27+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "medium",
+   "confluence": {
+    "net": -2,
+    "n_agree": 2,
+    "n_opp": 0,
+    "confluence_note": "2 nhóm đồng thuận, 0 nhóm ngược chiều"
+   },
+   "tau": {
+    "5": 0.017976,
+    "10": 0.025421
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 17600.0,
+   "reference_close_actual": 17600.0,
+   "atr14": 565.9412,
+   "invalidation": {
+    "level": 18731.882321584373,
+    "basis": "2 ATR trên giá đóng cửa"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 18.732 (2 ATR trên giá đóng cửa).",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 18.732, nhận định giảm bị vô hiệu; kháng cự kế tiếp quan sát quanh 23.600.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow giảm (đỉnh–đáy thấp dần); EMA20 (18.594) dưới EMA50 (20.324); giá đóng cửa 17.600 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": -1
+      },
+      {
+       "name": "ema20",
+       "value": 18594.400690064893
+      },
+      {
+       "name": "ema50",
+       "value": 20323.911628650152
+      },
+      {
+       "name": "close",
+       "value": 17600.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "MACD histogram 7,00 (dương); RSI(14) = 29,0 (dưới 50). Hai chỉ báo không cùng phía hoặc RSI quanh 50 → trung lập.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": 7.001364430917988
+      },
+      {
+       "name": "rsi14",
+       "value": 28.961118908110038
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -1300.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -1302112.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Không có mô hình nến/mô hình giá đã xác nhận và giá không sát hỗ trợ/kháng cự → trung lập.",
+     "evidence": [],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": null,
+    "resistance": 23600.0,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_VCB_next_session",
+   "symbol": "VCB",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:33+07:00",
+   "direction": 0,
+   "direction_vi": "Đi ngang / chưa rõ",
+   "confidence": "low",
+   "confluence": {
+    "net": -1,
+    "n_agree": 0,
+    "n_opp": 0,
+    "confluence_note": "Chưa đủ nhóm đồng thuận"
+   },
+   "tau": {
+    "1": 0.004759
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 53900.0,
+   "reference_close_actual": 53900.0,
+   "atr14": 1025.9778,
+   "invalidation": null,
+   "scenario_main": "Kịch bản chính (ĐI NGANG / CHƯA RÕ HƯỚNG): giá có xu hướng dao động giữa hỗ trợ 52.834 và kháng cự 55.305.",
+   "scenario_alt": "Kịch bản thay thế: đóng cửa vượt ra ngoài vùng trên kèm khối lượng cao có thể mở ra một xu hướng mới; cần chờ xác nhận.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 53.900 dưới EMA9 (54.287), EMA9 dưới EMA20 (55.100), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 53900.0
+      },
+      {
+       "name": "ema9",
+       "value": 54286.56769408828
+      },
+      {
+       "name": "ema20",
+       "value": 55099.53727504688
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "ADX = 20,1 nằm giữa 20 và 25 (vùng chuyển tiếp) → không bỏ phiếu theo chế độ thị trường.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 20.096326173366375
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối giảm với khối lượng bằng 0,49× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.4921154488931712
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Không có mô hình nến/mô hình giá đã xác nhận và giá không sát hỗ trợ/kháng cự → trung lập.",
+     "evidence": [],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 52833.75,
+    "resistance": 55305.4286,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_VCB_1_2_weeks",
+   "symbol": "VCB",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:33+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -3,
+    "n_agree": 3,
+    "n_opp": 0,
+    "confluence_note": "3/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "5": 0.010641,
+    "10": 0.015048
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 53900.0,
+   "reference_close_actual": 53900.0,
+   "atr14": 1025.9778,
+   "invalidation": {
+    "level": 55305.4286,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 55.305 (vùng kháng cự), vùng quan sát tiếp theo là hỗ trợ 52.834.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 55.305, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow giảm (đỉnh–đáy thấp dần); EMA20 (55.100) dưới EMA50 (56.454); giá đóng cửa 53.900 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": -1
+      },
+      {
+       "name": "ema20",
+       "value": 55099.53727504688
+      },
+      {
+       "name": "ema50",
+       "value": 56454.03328258037
+      },
+      {
+       "name": "close",
+       "value": 53900.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "MACD histogram -94,06 (âm); RSI(14) = 38,3 (dưới 50). Hai chỉ báo cùng phía.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": -94.0582731671476
+      },
+      {
+       "name": "rsi14",
+       "value": 38.30034366593039
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -3300.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -25715903.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Không có mô hình nến/mô hình giá đã xác nhận và giá không sát hỗ trợ/kháng cự → trung lập.",
+     "evidence": [],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 52833.75,
+    "resistance": 55305.4286,
+    "pattern_target": {
+     "pattern": "Tam giác cân",
+     "target": 45771.36842105263,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_TCB_next_session",
+   "symbol": "TCB",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:39+07:00",
+   "direction": 0,
+   "direction_vi": "Đi ngang / chưa rõ",
+   "confidence": "low",
+   "confluence": {
+    "net": 0,
+    "n_agree": 0,
+    "n_opp": 0,
+    "confluence_note": "Các nhóm mâu thuẫn nhau"
+   },
+   "tau": {
+    "1": 0.005434
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 21550.0,
+   "reference_close_actual": 21550.0,
+   "atr14": 468.3973,
+   "invalidation": null,
+   "scenario_main": "Kịch bản chính (ĐI NGANG / CHƯA RÕ HƯỚNG): giá có xu hướng dao động giữa hỗ trợ 21.448 và kháng cự 22.334.",
+   "scenario_alt": "Kịch bản thay thế: đóng cửa vượt ra ngoài vùng trên kèm khối lượng cao có thể mở ra một xu hướng mới; cần chờ xác nhận.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 21.550 dưới EMA9 (21.792), EMA9 dưới EMA20 (21.888), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 21550.0
+      },
+      {
+       "name": "ema9",
+       "value": 21792.482160624128
+      },
+      {
+       "name": "ema20",
+       "value": 21888.27032200084
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "ADX = 17,1 < 20 (thị trường đi ngang): RSI = 44,3, Stoch %K = 52,5 → không ở vùng cực trị → trung lập.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 17.148807641354324
+      },
+      {
+       "name": "rsi14",
+       "value": 44.29917017508526
+      },
+      {
+       "name": "stoch_k",
+       "value": 52.48975596881714
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối giảm với khối lượng bằng 0,70× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.6986542667019002
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 1,
+     "reading": "ủng hộ tăng",
+     "text": "Giá sát hỗ trợ 21.448 (cách 0,22 atr).",
+     "evidence": [
+      {
+       "name": "support",
+       "value": 21448.125
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [
+    "Hai đáy (Double bottom) đang hình thành (chưa xác nhận)"
+   ],
+   "levels": {
+    "support": 21448.125,
+    "resistance": 22334.0,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_TCB_1_2_weeks",
+   "symbol": "TCB",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:39+07:00",
+   "direction": 0,
+   "direction_vi": "Đi ngang / chưa rõ",
+   "confidence": "low",
+   "confluence": {
+    "net": -1,
+    "n_agree": 0,
+    "n_opp": 0,
+    "confluence_note": "Các nhóm mâu thuẫn nhau"
+   },
+   "tau": {
+    "5": 0.01215,
+    "10": 0.017183
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 21550.0,
+   "reference_close_actual": 21550.0,
+   "atr14": 468.3973,
+   "invalidation": null,
+   "scenario_main": "Kịch bản chính (ĐI NGANG / CHƯA RÕ HƯỚNG): giá có xu hướng dao động giữa hỗ trợ 21.448 và kháng cự 22.334.",
+   "scenario_alt": "Kịch bản thay thế: đóng cửa vượt ra ngoài vùng trên kèm khối lượng cao có thể mở ra một xu hướng mới; cần chờ xác nhận.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Xu hướng Dow giảm (đỉnh–đáy thấp dần); EMA20 (21.888) trên EMA50 (21.769); giá đóng cửa 21.550 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": -1
+      },
+      {
+       "name": "ema20",
+       "value": 21888.27032200084
+      },
+      {
+       "name": "ema50",
+       "value": 21768.503598461335
+      },
+      {
+       "name": "close",
+       "value": 21550.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "MACD histogram -66,32 (âm); RSI(14) = 44,3 (dưới 50). Hai chỉ báo cùng phía.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": -66.32223512427323
+      },
+      {
+       "name": "rsi14",
+       "value": 44.29917017508526
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -800.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -49365662.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 1,
+     "reading": "ủng hộ tăng",
+     "text": "Giá sát hỗ trợ 21.448 (cách 0,22 atr).",
+     "evidence": [
+      {
+       "name": "support",
+       "value": 21448.125
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [
+    "ADX = 17,1 < 20: xu hướng yếu, tín hiệu theo xu hướng kém tin cậy hơn.",
+    "Hai đáy (Double bottom) đang hình thành (chưa xác nhận)"
+   ],
+   "levels": {
+    "support": 21448.125,
+    "resistance": 22334.0,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_GAS_next_session",
+   "symbol": "GAS",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:45+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "medium",
+   "confluence": {
+    "net": -2,
+    "n_agree": 2,
+    "n_opp": 0,
+    "confluence_note": "2 nhóm đồng thuận, 0 nhóm ngược chiều"
+   },
+   "tau": {
+    "1": 0.007756
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 73200.0,
+   "reference_close_actual": 73200.0,
+   "atr14": 2270.8586,
+   "invalidation": {
+    "level": 77055.0,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 77.055 (vùng kháng cự), vùng quan sát tiếp theo là hỗ trợ 71.195.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 77.055, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 73.200 dưới EMA9 (74.499), EMA9 dưới EMA20 (76.003), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 73200.0
+      },
+      {
+       "name": "ema9",
+       "value": 74498.55004265427
+      },
+      {
+       "name": "ema20",
+       "value": 76003.39012225208
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "ADX = 21,2 nằm giữa 20 và 25 (vùng chuyển tiếp) → không bỏ phiếu theo chế độ thị trường.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 21.177401462443395
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối giảm với khối lượng bằng 0,34× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.34426263800198614
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá sát kháng cự 73.903 (cách 0,31 atr).",
+     "evidence": [
+      {
+       "name": "resistance",
+       "value": 73902.6667
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [
+    "Phân kỳ tăng RSI: giá tạo đáy swing thấp hơn (75.500 → 73.800) nhưng RSI cao hơn (38,6 → 40,8)."
+   ],
+   "levels": {
+    "support": 71194.6,
+    "resistance": 73902.6667,
+    "pattern_target": {
+     "pattern": "Hai đỉnh (Double top)",
+     "target": 68450.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_GAS_1_2_weeks",
+   "symbol": "GAS",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:45+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -4,
+    "n_agree": 4,
+    "n_opp": 0,
+    "confluence_note": "4/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "5": 0.017342,
+    "10": 0.024526
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 73200.0,
+   "reference_close_actual": 73200.0,
+   "atr14": 2270.8586,
+   "invalidation": {
+    "level": 77055.0,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 77.055 (vùng kháng cự), vùng quan sát tiếp theo là hỗ trợ 71.195.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 77.055, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow giảm (đỉnh–đáy thấp dần); EMA20 (76.003) dưới EMA50 (77.669); giá đóng cửa 73.200 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": -1
+      },
+      {
+       "name": "ema20",
+       "value": 76003.39012225208
+      },
+      {
+       "name": "ema50",
+       "value": 77668.53349151791
+      },
+      {
+       "name": "close",
+       "value": 73200.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "MACD histogram -257,24 (âm); RSI(14) = 37,9 (dưới 50). Hai chỉ báo cùng phía.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": -257.243905979635
+      },
+      {
+       "name": "rsi14",
+       "value": 37.92433207140667
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -2800.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -949226.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Tam giác cân đã xác nhận (giảm); hai đỉnh (double top) đã xác nhận (giảm).",
+     "evidence": [
+      {
+       "name": "chart_pattern",
+       "value": "symmetrical_triangle"
+      },
+      {
+       "name": "chart_pattern",
+       "value": "double_top"
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [
+    "Phân kỳ tăng RSI: giá tạo đáy swing thấp hơn (75.500 → 73.800) nhưng RSI cao hơn (38,6 → 40,8)."
+   ],
+   "levels": {
+    "support": 71194.6,
+    "resistance": 73902.6667,
+    "pattern_target": {
+     "pattern": "Hai đỉnh (Double top)",
+     "target": 68450.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_BSR_next_session",
+   "symbol": "BSR",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:52+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "medium",
+   "confluence": {
+    "net": -2,
+    "n_agree": 2,
+    "n_opp": 0,
+    "confluence_note": "2 nhóm đồng thuận, 0 nhóm ngược chiều"
+   },
+   "tau": {
+    "1": 0.009638
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 25500.0,
+   "reference_close_actual": 25500.0,
+   "atr14": 983.0721,
+   "invalidation": {
+    "level": 27278.75,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 27.279 (vùng kháng cự), vùng quan sát tiếp theo là hỗ trợ 24.691.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 27.279, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 25.500 dưới EMA9 (26.184), EMA9 dưới EMA20 (27.239), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 25500.0
+      },
+      {
+       "name": "ema9",
+       "value": 26183.795713981533
+      },
+      {
+       "name": "ema20",
+       "value": 27238.628663945616
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "ADX = 32,4 ≥ 25 (xu hướng mạnh): theo chiều lực chi phối, +DI = 10,3 < −DI = 29,3.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 32.41843611537517
+      },
+      {
+       "name": "plus_di14",
+       "value": 10.285247157524575
+      },
+      {
+       "name": "minus_di14",
+       "value": 29.297519593839542
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối tăng với khối lượng bằng 0,51× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.5105248509050827
+      },
+      {
+       "name": "bar_dir",
+       "value": 1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Không có mô hình nến/mô hình giá đã xác nhận và giá không sát hỗ trợ/kháng cự → trung lập.",
+     "evidence": [],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 24690.75,
+    "resistance": 27278.75,
+    "pattern_target": {
+     "pattern": "Tam giác cân",
+     "target": 17225.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_BSR_1_2_weeks",
+   "symbol": "BSR",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:52+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -3,
+    "n_agree": 3,
+    "n_opp": 0,
+    "confluence_note": "3/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "5": 0.021551,
+    "10": 0.030478
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 25500.0,
+   "reference_close_actual": 25500.0,
+   "atr14": 983.0721,
+   "invalidation": {
+    "level": 27278.75,
+    "basis": "vùng kháng cự"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 27.279 (vùng kháng cự), vùng quan sát tiếp theo là hỗ trợ 24.691.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 27.279, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow hỗn hợp; EMA20 (27.239) dưới EMA50 (28.000); giá đóng cửa 25.500 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": 0
+      },
+      {
+       "name": "ema20",
+       "value": 27238.628663945616
+      },
+      {
+       "name": "ema50",
+       "value": 28000.00221913557
+      },
+      {
+       "name": "close",
+       "value": 25500.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "MACD histogram -237,86 (âm); RSI(14) = 30,5 (dưới 50). Hai chỉ báo cùng phía.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": -237.8577165485309
+      },
+      {
+       "name": "rsi14",
+       "value": 30.52850013416814
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -2150.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -36233802.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Tam giác cân đã xác nhận (giảm); giá sát hỗ trợ 24.691 (cách 0,82 atr).",
+     "evidence": [
+      {
+       "name": "chart_pattern",
+       "value": "symmetrical_triangle"
+      },
+      {
+       "name": "support",
+       "value": 24690.75
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 24690.75,
+    "resistance": 27278.75,
+    "pattern_target": {
+     "pattern": "Tam giác cân",
+     "target": 17225.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_FUEVFVND_next_session",
+   "symbol": "FUEVFVND",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:58+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -3,
+    "n_agree": 3,
+    "n_opp": 0,
+    "confluence_note": "3/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "1": 0.004285
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 31600.0,
+   "reference_close_actual": 31600.0,
+   "atr14": 541.5673,
+   "invalidation": {
+    "level": 32960.0,
+    "basis": "đỉnh swing gần nhất"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 32.960 (đỉnh swing gần nhất), vùng quan sát tiếp theo là hỗ trợ 30.620.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 32.960, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 31.600 dưới EMA9 (31.643), EMA9 dưới EMA20 (31.902), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 31600.0
+      },
+      {
+       "name": "ema9",
+       "value": 31642.641110242366
+      },
+      {
+       "name": "ema20",
+       "value": 31902.38840226303
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "ADX = 28,7 ≥ 25 (xu hướng mạnh): theo chiều lực chi phối, +DI = 17,0 < −DI = 24,8.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 28.732197173711345
+      },
+      {
+       "name": "plus_di14",
+       "value": 17.000504249255723
+      },
+      {
+       "name": "minus_di14",
+       "value": 24.800923960827994
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "Nến cuối giảm với khối lượng bằng 0,58× trung bình 20 nến: khối lượng không nổi bật → trung lập.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 0.5806634959458525
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá sát kháng cự 31.870 (cách 0,50 atr).",
+     "evidence": [
+      {
+       "name": "resistance",
+       "value": 31870.0
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 30620.0,
+    "resistance": 31870.0,
+    "pattern_target": {
+     "pattern": "Tam giác cân",
+     "target": 25810.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_FUEVFVND_1_2_weeks",
+   "symbol": "FUEVFVND",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:57:58+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "high",
+   "confluence": {
+    "net": -3,
+    "n_agree": 3,
+    "n_opp": 0,
+    "confluence_note": "3/4 nhóm đồng thuận, không nhóm nào ngược chiều"
+   },
+   "tau": {
+    "5": 0.009581,
+    "10": 0.013549
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 31600.0,
+   "reference_close_actual": 31600.0,
+   "atr14": 541.5673,
+   "invalidation": {
+    "level": 32960.0,
+    "basis": "đỉnh swing gần nhất"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 32.960 (đỉnh swing gần nhất), vùng quan sát tiếp theo là hỗ trợ 30.620.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 32.960, nhận định giảm bị vô hiệu.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow giảm (đỉnh–đáy thấp dần); EMA20 (31.902) dưới EMA50 (32.574); giá đóng cửa 31.600 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": -1
+      },
+      {
+       "name": "ema20",
+       "value": 31902.38840226303
+      },
+      {
+       "name": "ema50",
+       "value": 32574.450949858187
+      },
+      {
+       "name": "close",
+       "value": 31600.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "MACD histogram 31,43 (dương); RSI(14) = 44,1 (dưới 50). Hai chỉ báo không cùng phía hoặc RSI quanh 50 → trung lập.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": 31.434566298499476
+      },
+      {
+       "name": "rsi14",
+       "value": 44.10947589945473
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -570.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -917915.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá sát kháng cự 31.870 (cách 0,50 atr).",
+     "evidence": [
+      {
+       "name": "resistance",
+       "value": 31870.0
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [],
+   "levels": {
+    "support": 30620.0,
+    "resistance": 31870.0,
+    "pattern_target": {
+     "pattern": "Tam giác cân",
+     "target": 25810.0,
+     "method": "đo theo chiều cao mô hình (measured move)"
+    }
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_E1VFVN30_next_session",
+   "symbol": "E1VFVN30",
+   "horizon": "next_session",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:58:04+07:00",
+   "direction": -1,
+   "direction_vi": "Giảm",
+   "confidence": "medium",
+   "confluence": {
+    "net": -2,
+    "n_agree": 3,
+    "n_opp": 1,
+    "confluence_note": "3 nhóm đồng thuận, 1 nhóm ngược chiều"
+   },
+   "tau": {
+    "1": 0.004506
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 33200.0,
+   "reference_close_actual": 33200.0,
+   "atr14": 598.3913,
+   "invalidation": {
+    "level": 34410.0,
+    "basis": "đỉnh swing gần nhất"
+   },
+   "scenario_main": "Kịch bản chính (nghiêng về GIẢM): giá không vượt lên trên 34.410 (đỉnh swing gần nhất), vùng quan sát tiếp theo là hỗ trợ 32.855.",
+   "scenario_alt": "Kịch bản thay thế: nếu giá đóng cửa trên 34.410, nhận định giảm bị vô hiệu; kháng cự kế tiếp quan sát quanh 34.502.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Giá 33.200 dưới EMA9 (33.406), EMA9 dưới EMA20 (33.569), giá dưới EMA20.",
+     "evidence": [
+      {
+       "name": "close",
+       "value": 33200.0
+      },
+      {
+       "name": "ema9",
+       "value": 33406.09821341041
+      },
+      {
+       "name": "ema20",
+       "value": 33569.002167658735
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "ADX = 33,5 ≥ 25 (xu hướng mạnh): theo chiều lực chi phối, +DI = 14,7 < −DI = 27,5.",
+     "evidence": [
+      {
+       "name": "adx14",
+       "value": 33.4839900029926
+      },
+      {
+       "name": "plus_di14",
+       "value": 14.669160274136424
+      },
+      {
+       "name": "minus_di14",
+       "value": 27.486680921130752
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Nến cuối giảm với khối lượng bằng 1,67× trung bình 20 nến: khối lượng cao (≥ 1,25×) đi cùng chiều nến.",
+     "evidence": [
+      {
+       "name": "vol_ratio",
+       "value": 1.6659026527931724
+      },
+      {
+       "name": "bar_dir",
+       "value": -1
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 1,
+     "reading": "ủng hộ tăng",
+     "text": "Giá sát hỗ trợ 32.855 (cách 0,58 atr).",
+     "evidence": [
+      {
+       "name": "support",
+       "value": 32855.0
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [
+    "Cấu trúc giá: Giá sát hỗ trợ 32.855 (cách 0,58 atr)."
+   ],
+   "notes": [
+    "Hai đáy (Double bottom) đang hình thành (chưa xác nhận)",
+    "Tam giác cân đang hình thành (chưa xác nhận)"
+   ],
+   "levels": {
+    "support": 32855.0,
+    "resistance": 34501.6667,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  },
+  {
+   "id": "2026-11-12_E1VFVN30_1_2_weeks",
+   "symbol": "E1VFVN30",
+   "horizon": "1_2_weeks",
+   "issued_at": "2026-11-12T20:58:56+07:00",
+   "asof_date": "2026-11-12",
+   "asof_bar_t": 1794441600,
+   "data_as_of_fetch": "2026-11-12T20:58:04+07:00",
+   "direction": 0,
+   "direction_vi": "Đi ngang / chưa rõ",
+   "confidence": "low",
+   "confluence": {
+    "net": -1,
+    "n_agree": 0,
+    "n_opp": 0,
+    "confluence_note": "Các nhóm mâu thuẫn nhau"
+   },
+   "tau": {
+    "5": 0.010076,
+    "10": 0.014249
+   },
+   "tau_rule": "0,25·ATR14·√h / giá đóng cửa tham chiếu (đã điều chỉnh)",
+   "reference_close_adjusted": 33200.0,
+   "reference_close_actual": 33200.0,
+   "atr14": 598.3913,
+   "invalidation": null,
+   "scenario_main": "Kịch bản chính (ĐI NGANG / CHƯA RÕ HƯỚNG): giá có xu hướng dao động giữa hỗ trợ 32.855 và kháng cự 34.502.",
+   "scenario_alt": "Kịch bản thay thế: đóng cửa vượt ra ngoài vùng trên kèm khối lượng cao có thể mở ra một xu hướng mới; cần chờ xác nhận.",
+   "groups": [
+    {
+     "group": "trend",
+     "group_vi": "Xu hướng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Xu hướng Dow hỗn hợp; EMA20 (33.569) dưới EMA50 (33.954); giá đóng cửa 33.200 dưới EMA50.",
+     "evidence": [
+      {
+       "name": "dow",
+       "value": 0
+      },
+      {
+       "name": "ema20",
+       "value": 33569.002167658735
+      },
+      {
+       "name": "ema50",
+       "value": 33953.88415661592
+      },
+      {
+       "name": "close",
+       "value": 33200.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "momentum",
+     "group_vi": "Động lượng",
+     "vote": 0,
+     "reading": "trung lập",
+     "text": "MACD histogram 4,91 (dương); RSI(14) = 43,2 (dưới 50). Hai chỉ báo không cùng phía hoặc RSI quanh 50 → trung lập.",
+     "evidence": [
+      {
+       "name": "macd_hist",
+       "value": 4.913994649287304
+      },
+      {
+       "name": "rsi14",
+       "value": 43.195165637467746
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "volume",
+     "group_vi": "Khối lượng",
+     "vote": -1,
+     "reading": "ủng hộ giảm",
+     "text": "Trong 10 nến, giá giảm và OBV giảm: khối lượng xác nhận hướng giá.",
+     "evidence": [
+      {
+       "name": "price_change_10",
+       "value": -710.0
+      },
+      {
+       "name": "obv_change_10",
+       "value": -3324859.0
+      }
+     ],
+     "na": false
+    },
+    {
+     "group": "structure",
+     "group_vi": "Cấu trúc giá",
+     "vote": 1,
+     "reading": "ủng hộ tăng",
+     "text": "Giá sát hỗ trợ 32.855 (cách 0,58 atr).",
+     "evidence": [
+      {
+       "name": "support",
+       "value": 32855.0
+      }
+     ],
+     "na": false
+    }
+   ],
+   "counter_arguments": [],
+   "notes": [
+    "Hai đáy (Double bottom) đang hình thành (chưa xác nhận)",
+    "Tam giác cân đang hình thành (chưa xác nhận)"
+   ],
+   "levels": {
+    "support": 32855.0,
+    "resistance": 34501.6667,
+    "pattern_target": null
+   },
+   "price_basis": {
+    "adjusted": true,
+    "futures": false
+   },
+   "engine_version": "1.0",
+   "rules_doc": "docs/analysis.md",
+   "basis": "engine",
+   "evaluations": []
+  }
+ ]
+}
