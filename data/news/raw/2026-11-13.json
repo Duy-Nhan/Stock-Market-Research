@@ -1,0 +1,183 @@
+{
+ "date": "2026-11-13",
+ "items": [
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "Giá vàng thế giới lao dốc, xuống thấp nhất hơn một năm",
+   "link": "https://vnexpress.net/gia-vang-the-gioi-lao-doc-xuong-thap-nhat-hon-mot-nam-5144060.html",
+   "published": "2026-11-12T23:15:23+07:00",
+   "snippet": "Tuyên bố \"không cần thỏa thuận với Iran\" của ông Trump khiến mỗi ounce vàng giảm hơn 130 USD.",
+   "tickers": [
+    "XAUUSD"
+   ],
+   "themes": [
+    "vang"
+   ],
+   "first_seen": "2026-11-13T00:02:34+07:00"
+  },
+  {
+   "source": "cafef_chung_khoan",
+   "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
+   "link": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
+   "published": "2026-11-12T22:53:00+07:00",
+   "snippet": "Chỉ vài tuần trước bê bối ngoại tình, ông Jensen Huang từng lên tiếng về việc có thể bị sa thải và chuyện người kế kiệm ở Nvidia.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:32+07:00"
+  },
+  {
+   "source": "cafef_chung_khoan",
+   "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
+   "link": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
+   "published": "2026-11-12T22:51:00+07:00",
+   "snippet": "Nvidia thông báo sự thay đổi này có hiệu lực ngay lập tức.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:32+07:00"
+  },
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "CEO tạm quyền của Nvidia là ai?",
+   "link": "https://vnexpress.net/ceo-tam-quyen-cua-nvidia-la-ai-5144046.html",
+   "published": "2026-11-12T22:45:18+07:00",
+   "snippet": "Colette Kress gia nhập Nvidia năm 2013 và là lãnh đạo được biết đến nhiều nhất tại công ty, sau Jensen Huang.",
+   "tickers": [],
+   "themes": [
+    "cong_nghe"
+   ],
+   "first_seen": "2026-11-13T00:02:34+07:00"
+  },
+  {
+   "source": "vneconomy_chung_khoan",
+   "title": "Khối ngoại tiếp tục bán ròng hơn 800 tỷ đồng",
+   "link": "https://vneconomy.vn/khoi-ngoai-tiep-tuc-ban-rong-hon-800-ty-dong.htm",
+   "published": "2026-11-12T22:30:48+07:00",
+   "snippet": "Giao dịch của nhà đầu tư nước ngoài tiếp tục là điểm đáng chú ý khi khối này bán ròng 857,2 tỷ đồng trên HoSE.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-13T00:02:39+07:00"
+  },
+  {
+   "source": "vneconomy_chung_khoan",
+   "title": "VN-Index giảm nhẹ, nhà đầu tư thận trọng trước kháng cự 1750 điểm",
+   "link": "https://vneconomy.vn/vn-index-giam-nhe-nha-dau-tu-than-trong-truoc-khang-cu-1750-diem.htm",
+   "published": "2026-11-12T22:30:36+07:00",
+   "snippet": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 13/11/2026.",
+   "tickers": [],
+   "themes": [
+    "thi_truong"
+   ],
+   "first_seen": "2026-11-13T00:02:39+07:00"
+  },
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "Jensen Huang từng nói gì về chuyện kế nhiệm?",
+   "link": "https://vnexpress.net/jensen-huang-tung-noi-gi-ve-chuyen-ke-nhiem-5144038.html",
+   "published": "2026-11-12T22:00:15+07:00",
+   "snippet": "Vài tuần trước bê bối ngoại tình khiến CEO Nvidia Jensen Huang phải từ chức, ông từng phát biểu về chuyện sa thải và kế nhiệm.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:34+07:00"
+  },
+  {
+   "source": "vnexpress_kinh_doanh",
+   "title": "Jensen Huang từ chức CEO Nvidia",
+   "link": "https://vnexpress.net/jensen-huang-tu-chuc-ceo-nvidia-5143768.html",
+   "published": "2026-11-12T21:01:10+07:00",
+   "snippet": "Hãng chip giá trị nhất thế giới lần đầu thay CEO sau 33 năm, vì bê bối ngoại tình của Jensen Huang.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:34+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Giá vàng giảm về đáy 1 năm sau tin CEO Nvidia Jensen Huang từ chức",
+   "link": "https://tuoitre.vn/gia-vang-giam-ve-day-1-nam-sau-tin-ceo-nvidia-jensen-huang-tu-chuc-100261112234100852.htm",
+   "published": null,
+   "snippet": "Từ trên ngưỡng 4.000 USD/ounce, giá vàng thế giới giảm không ngừng, đến 23h hôm nay, 12-11, chỉ còn 3.852 USD/ounce sau tin CEO Nvidia Jensen Huang từ chức. Đây cũng là mức đáy trong vòng một năm qua.",
+   "tickers": [
+    "XAUUSD"
+   ],
+   "themes": [
+    "vang"
+   ],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Cổ phiếu Nvidia lao dốc, bốc hơi 601 tỉ USD vốn hóa sau khi CEO Jensen Huang từ chức",
+   "link": "https://tuoitre.vn/co-phieu-nvidia-lao-doc-boc-hoi-601-ti-usd-von-hoa-sau-khi-ceo-jensen-huang-tu-chuc-100261112230059807.htm",
+   "published": null,
+   "snippet": "Cổ phiếu Nvidia có lúc giảm tới 14% ngay khi mở cửa phiên 12-11, làm bốc hơi 601 tỉ USD vốn hóa.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Người phụ nữ được chọn thay Jensen Huang lãnh đạo Nvidia là ai?",
+   "link": "https://tuoitre.vn/nguoi-phu-nu-duoc-chon-thay-jensen-huang-lanh-dao-nvidia-la-ai-100261112213304928.htm",
+   "published": null,
+   "snippet": "Tập đoàn Nvidia thông báo Giám đốc tài chính, bà Colette Kress, sẽ đảm nhận vị trí CEO tạm thời trong khi công ty tìm kiếm người kế nhiệm chính thức.",
+   "tickers": [],
+   "themes": [
+    "cong_nghe"
+   ],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Chính phủ chỉ đạo: Sàn đã khấu trừ thuế, người bán không phải lập hóa đơn",
+   "link": "https://tuoitre.vn/san-da-khau-tru-thue-toi-day-nguoi-ban-khong-con-phai-lap-hoa-don-100261112211123867.htm",
+   "published": null,
+   "snippet": "Chính phủ chỉ đạo Bộ Tài chính đơn giản hóa chính sách, theo hướng người bán trên sàn thương mại điện tử có chức năng thanh toán không phải lập hóa đơn nếu sàn đã khấu trừ thuế cho từng giao dịch.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "NÓNG: CEO Nvidia Jensen Huang từ chức",
+   "link": "https://tuoitre.vn/nong-ceo-nvidia-jensen-huang-tu-chuc-100261112080832995.htm",
+   "published": null,
+   "snippet": "Tỉ phú Mỹ Jensen Huang quyết định từ chức Giám đốc điều hành (CEO) của Tập đoàn sản xuất chip Nvidia sau bê bối tình ái.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Bê bối tình ái của CEO Jensen Huang: Ai đang chịu rủi ro về tài chính?",
+   "link": "https://tuoitre.vn/be-boi-tinh-ai-cua-ceo-jensen-huang-ai-dang-chiu-rui-ro-ve-tai-chinh-100261112160553492.htm",
+   "published": null,
+   "snippet": "Bê bối của CEO Nvidia Jensen Huang không chỉ khiến giá cổ phiếu lao dốc, mà còn gây ra nhiều hệ lụy về tài chính.",
+   "tickers": [],
+   "themes": [
+    "cong_nghe"
+   ],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "tuoitre_kinh_doanh",
+   "title": "Một vụ lúa lời vài triệu đồng, làm sao để nông dân mặn mà với chuyển đổi xanh?",
+   "link": "https://tuoitre.vn/mot-vu-lua-loi-vai-trieu-dong-lam-sao-de-nong-dan-man-ma-voi-chuyen-doi-xanh-100261112195000935.htm",
+   "published": null,
+   "snippet": "Muốn giữ diện tích lúa để bảo đảm an ninh lương thực đồng thời giảm phát thải, Miền Tây cần cơ chế chia sẻ chi phí chuyển đổi xanh thay vì đặt gánh nặng lên người nông dân, nhà sản xuất.",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:40+07:00"
+  },
+  {
+   "source": "baochinhphu_kinh_te",
+   "title": "Việt Nam - Mông Cổ thống nhất nhiều định hướng hợp tác trọng tâm",
+   "link": "https://baochinhphu.vn/viet-nam-mong-co-thong-nhat-nhieu-dinh-huong-hop-tac-trong-tam-102261112222014774.htm",
+   "published": null,
+   "snippet": "(Chinhphu.vn) - Ngày 12/11, tại thủ đô Ulaanbaatar (Mông Cổ), Kỳ họp lần thứ 20 Ủy ban liên Chính phủ Việt Nam - Mông Cổ về hợp tác thương mại, kinh tế, khoa học và kỹ thuật diễn ra dưới sự đồng chủ trì của Bộ trưởng Bộ Nông nghiệp và Môi t",
+   "tickers": [],
+   "themes": [],
+   "first_seen": "2026-11-13T00:02:42+07:00"
+  }
+ ]
+}

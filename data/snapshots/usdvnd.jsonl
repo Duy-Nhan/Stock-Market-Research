@@ -6,3 +6,4 @@
 {"fetched_at": "2026-11-11T19:56:07+07:00", "source": "vietcombank:pXML", "source_datetime": "11/11/2026 7:46:18 PM", "buy": 25430.0, "transfer": 25460.0, "sell": 25840.0, "note": "Nguồn yêu cầu tối đa 1 request/5 phút"}
 {"fetched_at": "2026-11-11T23:32:00+07:00", "source": "vietcombank:pXML", "source_datetime": "11/11/2026 11:21:50 PM", "buy": 25430.0, "transfer": 25460.0, "sell": 25840.0, "note": "Nguồn yêu cầu tối đa 1 request/5 phút"}
 {"fetched_at": "2026-11-12T20:58:28+07:00", "source": "vietcombank:pXML", "source_datetime": "11/12/2026 8:44:46 PM", "buy": 25460.0, "transfer": 25490.0, "sell": 25870.0, "note": "Nguồn yêu cầu tối đa 1 request/5 phút"}
+{"fetched_at": "2026-11-13T00:02:18+07:00", "source": "vietcombank:pXML", "source_datetime": "11/13/2026 12:01:26 AM", "buy": 25460.0, "transfer": 25490.0, "sell": 25870.0, "note": "Nguồn yêu cầu tối đa 1 request/5 phút"}

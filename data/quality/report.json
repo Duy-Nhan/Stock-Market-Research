@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-12T20:58:52+07:00",
+ "generated_at": "2026-11-13T00:02:42+07:00",
  "per_symbol": {
   "FPT": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 3,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 235,
+    "days_where_adClose_differs_from_close": 234,
     "first_example": {
      "date": "2026-09-18",
      "finfo_close": 71.7,
@@ -44,21 +44,21 @@
     "bars_outside_floor_ceiling": 4837
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 0,
     "examples": []
    }
   },
   "CMG": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 7,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 68,
+    "days_where_adClose_differs_from_close": 67,
     "first_example": {
      "date": "2026-01-13",
      "finfo_close": 36.8,
@@ -96,7 +96,7 @@
     "bars_outside_floor_ceiling": 0
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 1,
     "examples": [
      [
@@ -109,14 +109,14 @@
   },
   "VCB": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 4,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 196,
+    "days_where_adClose_differs_from_close": 195,
     "first_example": {
      "date": "2026-07-22",
      "finfo_close": 54.5,
@@ -150,7 +150,7 @@
     "bars_outside_floor_ceiling": 0
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 1,
     "examples": [
      [
@@ -163,14 +163,14 @@
   },
   "TCB": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 1,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 263,
+    "days_where_adClose_differs_from_close": 262,
     "first_example": {
      "date": "2026-10-28",
      "finfo_close": 33.5,
@@ -204,7 +204,7 @@
     "bars_outside_floor_ceiling": 11277
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 1,
     "examples": [
      [
@@ -217,14 +217,14 @@
   },
   "GAS": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 3,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 236,
+    "days_where_adClose_differs_from_close": 235,
     "first_example": {
      "date": "2026-09-21",
      "finfo_close": 88.6,
@@ -258,7 +258,7 @@
     "bars_outside_floor_ceiling": 0
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 26,
     "examples": [
      [
@@ -286,14 +286,14 @@
   },
   "BSR": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 4,
     "close_mismatch_examples": []
    },
    "adjusted_prices": {
-    "days_where_adClose_differs_from_close": 209,
+    "days_where_adClose_differs_from_close": 208,
     "first_example": {
      "date": "2026-08-10",
      "finfo_close": 26.9,
@@ -327,7 +327,7 @@
     "bars_outside_floor_ceiling": 0
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 1,
     "examples": [
      [
@@ -340,7 +340,7 @@
   },
   "FUEVFVND": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 7,
@@ -381,7 +381,7 @@
   },
   "E1VFVN30": {
    "daily_vs_finfo": {
-    "days_compared": 274,
+    "days_compared": 273,
     "finfo_days_missing_in_dchart": 0,
     "close_mismatch": 0,
     "volume_vs_nmVolume_mismatch": 7,
@@ -415,7 +415,7 @@
     "bars_outside_floor_ceiling": 0
    },
    "yahoo_crosscheck": {
-    "days_compared": 64,
+    "days_compared": 63,
     "close_mismatch_rel_gt_0.5pct": 0,
     "examples": []
    }
